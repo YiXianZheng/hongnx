@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.hongnx.cloud.common.core.config.JacksonConfig,\
+  com.hongnx.cloud.common.core.config.MessageSourceConfig,\
+  com.hongnx.cloud.common.core.config.RestTemplateConfig,\
+  com.hongnx.cloud.common.core.util.SpringContextHolder,\
+  com.hongnx.cloud.common.core.config.HomeDirConfigProperties,\
+  com.hongnx.cloud.common.core.sentinel.SentinelAutoConfiguration

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.hongnx.cloud.common.job.properties.XxlAdminProperties,\
+  com.hongnx.cloud.common.job.properties.XxlExecutorProperties,\
+  com.hongnx.cloud.common.job.properties.XxlJobProperties,\
+  com.hongnx.cloud.common.job.config.XxlJobConfig

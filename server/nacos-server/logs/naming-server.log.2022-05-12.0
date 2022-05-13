@@ -1,0 +1,482 @@
+2022-05-12 15:52:12,785 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-05-12 15:52:12,785 WARN Using naming.distro config to replace core.distro config
+
+2022-05-12 15:52:12,942 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-05-12 15:52:12,943 INFO listen for service meta change
+
+2022-05-12 15:52:12,947 INFO upgrade.state file is not exist
+
+2022-05-12 15:52:15,335 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-05-12 15:52:15,336 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.CmdbLabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-05-12 15:52:16,594 INFO Load instance extension handler []
+
+2022-05-12 16:17:03,461 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-05-12 16:17:03,480 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-05-12 16:17:04,789 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 16:17:04,789 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 16:17:47,679 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-05-12 16:17:47,679 WARN Using naming.distro config to replace core.distro config
+
+2022-05-12 16:17:48,267 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-05-12 16:17:48,270 INFO listen for service meta change
+
+2022-05-12 16:17:55,895 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-05-12 16:17:55,895 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.CmdbLabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-05-12 16:17:58,731 INFO Load instance extension handler []
+
+2022-05-12 16:23:42,627 INFO Client connection 192.168.31.142:55776#true connect
+
+2022-05-12 16:23:44,070 INFO Client connection 10.8.0.34:9999#true connect
+
+2022-05-12 16:23:44,072 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=0}, 10.8.0.34:9999#true
+
+2022-05-12 16:24:50,906 INFO Client connection 192.168.31.142:62591#true connect
+
+2022-05-12 16:24:51,483 INFO Client connection 10.8.0.34:5000#true connect
+
+2022-05-12 16:24:51,483 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=0}, 10.8.0.34:5000#true
+
+2022-05-12 16:31:41,453 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, 10.8.0.34:5000#true
+
+2022-05-12 16:31:59,565 INFO Client connection 192.168.31.142:50684#true connect
+
+2022-05-12 16:32:00,141 INFO Client connection 10.8.0.54:5000#true connect
+
+2022-05-12 16:32:00,141 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, 10.8.0.54:5000#true
+
+2022-05-12 16:32:07,476 INFO Client connection 192.168.31.142:62591#true disconnect, remove instances and subscribers
+
+2022-05-12 16:32:12,488 INFO Client connection 10.8.0.34:5000#true disconnect, remove instances and subscribers
+
+2022-05-12 16:32:56,542 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, 10.8.0.54:5000#true
+
+2022-05-12 16:33:21,298 INFO Client connection 192.168.31.142:49681#true connect
+
+2022-05-12 16:33:22,971 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=4}, 10.8.0.54:5000#true
+
+2022-05-12 16:33:32,646 INFO Client connection 192.168.31.142:50684#true disconnect, remove instances and subscribers
+
+2022-05-12 16:36:55,186 INFO Client connection 192.168.31.142:50238#true connect
+
+2022-05-12 16:36:56,891 INFO Client connection 10.8.0.62:5999#true connect
+
+2022-05-12 16:36:56,891 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, 10.8.0.62:5999#true
+
+2022-05-12 16:38:11,899 INFO Client connection 192.168.31.142:54014#true connect
+
+2022-05-12 16:38:12,514 INFO Client connection 10.8.0.62:6002#true connect
+
+2022-05-12 16:38:12,514 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, 10.8.0.62:6002#true
+
+2022-05-12 16:40:19,619 INFO Client connection 192.168.31.142:60054#true connect
+
+2022-05-12 16:40:21,339 INFO Client connection 10.8.0.62:6003#true connect
+
+2022-05-12 16:40:21,339 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, 10.8.0.62:6003#true
+
+2022-05-12 16:51:28,360 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, 10.8.0.34:9999#true
+
+2022-05-12 16:51:28,482 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, 10.8.0.62:6002#true
+
+2022-05-12 16:51:28,517 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, 10.8.0.62:6003#true
+
+2022-05-12 16:51:28,519 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, 10.8.0.54:5000#true
+
+2022-05-12 16:51:28,554 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, 10.8.0.62:5999#true
+
+2022-05-12 16:51:54,691 INFO Client connection 192.168.31.142:54014#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,703 INFO Client connection 10.8.0.34:9999#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 10.8.0.62:6003#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 10.8.0.54:5000#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 10.8.0.62:5999#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 10.8.0.62:6002#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 192.168.31.142:50238#true disconnect, remove instances and subscribers
+
+2022-05-12 16:51:59,704 INFO Client connection 192.168.31.142:49681#true disconnect, remove instances and subscribers
+
+2022-05-12 16:52:01,945 INFO Client connection 192.168.31.142:62438#true connect
+
+2022-05-12 16:52:03,309 INFO Client connection 192.168.31.142:9999#true connect
+
+2022-05-12 16:52:03,309 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, 192.168.31.142:9999#true
+
+2022-05-12 16:52:04,709 INFO Client connection 192.168.31.142:60054#true disconnect, remove instances and subscribers
+
+2022-05-12 16:52:04,709 INFO Client connection 192.168.31.142:55776#true disconnect, remove instances and subscribers
+
+2022-05-12 16:52:31,363 INFO Client connection 192.168.31.142:55008#true connect
+
+2022-05-12 16:52:31,992 INFO Client connection 192.168.31.142:5000#true connect
+
+2022-05-12 16:52:31,992 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, 192.168.31.142:5000#true
+
+2022-05-12 16:53:03,525 INFO Client connection 192.168.31.142:52276#true connect
+
+2022-05-12 16:53:04,164 INFO Client connection 192.168.31.142:5999#true connect
+
+2022-05-12 16:53:04,165 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=2}, 192.168.31.142:5999#true
+
+2022-05-12 16:53:28,363 WARN namespace : public, [DEFAULT_GROUP@@base-weixin-admin] services are automatically cleaned
+
+2022-05-12 16:53:28,363 WARN namespace : public, [DEFAULT_GROUP@@base-mall-admin] services are automatically cleaned
+
+2022-05-12 16:53:30,482 INFO Client connection 192.168.31.142:61938#true connect
+
+2022-05-12 16:53:31,073 INFO Client connection 192.168.31.142:6002#true connect
+
+2022-05-12 16:53:31,074 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, 192.168.31.142:6002#true
+
+2022-05-12 16:54:04,266 INFO Client connection 192.168.31.142:64938#true connect
+
+2022-05-12 16:54:04,915 INFO Client connection 192.168.31.142:6003#true connect
+
+2022-05-12 16:54:04,915 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, 192.168.31.142:6003#true
+
+2022-05-12 17:15:15,028 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-05-12 17:15:15,028 WARN Using naming.distro config to replace core.distro config
+
+2022-05-12 17:15:15,250 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-05-12 17:15:15,252 INFO listen for service meta change
+
+2022-05-12 17:16:31,487 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-05-12 17:16:31,487 WARN Using naming.distro config to replace core.distro config
+
+2022-05-12 17:16:31,627 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-05-12 17:16:31,627 INFO listen for service meta change
+
+2022-05-12 17:18:21,811 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-05-12 17:18:21,811 WARN Using naming.distro config to replace core.distro config
+
+2022-05-12 17:18:21,992 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-05-12 17:18:21,992 INFO listen for service meta change
+
+2022-05-12 17:18:25,349 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-05-12 17:18:25,349 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.CmdbLabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-05-12 17:18:27,344 INFO Load instance extension handler []
+
+2022-05-12 17:19:12,992 INFO Client connection 192.168.31.142:64777#true connect
+
+2022-05-12 17:19:14,041 INFO Client connection 192.168.31.142:9999#true connect
+
+2022-05-12 17:19:14,042 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=0}, 192.168.31.142:9999#true
+
+2022-05-12 17:20:04,982 INFO Client connection 192.168.31.142:57936#true connect
+
+2022-05-12 17:20:05,791 INFO Client connection 192.168.31.142:5000#true connect
+
+2022-05-12 17:20:05,791 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=0}, 192.168.31.142:5000#true
+
+2022-05-12 17:20:49,839 INFO Client connection 192.168.31.142:61192#true connect
+
+2022-05-12 17:20:50,322 INFO Client connection 192.168.31.142:5999#true connect
+
+2022-05-12 17:20:50,322 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, 192.168.31.142:5999#true
+
+2022-05-12 17:22:35,361 INFO Client connection 192.168.31.142:63420#true connect
+
+2022-05-12 17:22:35,817 INFO Client connection 192.168.31.142:6002#true connect
+
+2022-05-12 17:22:35,817 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, 192.168.31.142:6002#true
+
+2022-05-12 17:23:14,330 INFO Client connection 192.168.31.142:58390#true connect
+
+2022-05-12 17:23:14,790 INFO Client connection 192.168.31.142:6003#true connect
+
+2022-05-12 17:23:14,790 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, 192.168.31.142:6003#true
+
+2022-05-12 19:13:49,857 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":9999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#9999#DEFAULT#DEFAULT_GROUP@@base-gateway"},"lastHeartBeatTime":1652349702815,"metadataId":"192.168.31.142:9999:DEFAULT"}
+
+2022-05-12 19:13:49,857 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, 192.168.31.142:9999#true
+
+2022-05-12 19:13:49,858 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":5000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5000#DEFAULT#DEFAULT_GROUP@@base-auth"},"lastHeartBeatTime":1652349699231,"metadataId":"192.168.31.142:5000:DEFAULT"}
+
+2022-05-12 19:13:49,858 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, 192.168.31.142:5000#true
+
+2022-05-12 19:13:49,861 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":6002,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6002#DEFAULT#DEFAULT_GROUP@@base-weixin-admin"},"lastHeartBeatTime":1652349698965,"metadataId":"192.168.31.142:6002:DEFAULT"}
+
+2022-05-12 19:13:49,861 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, 192.168.31.142:6002#true
+
+2022-05-12 19:13:49,861 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":6003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6003#DEFAULT#DEFAULT_GROUP@@base-mall-admin"},"lastHeartBeatTime":1652349702932,"metadataId":"192.168.31.142:6003:DEFAULT"}
+
+2022-05-12 19:13:49,861 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, 192.168.31.142:6003#true
+
+2022-05-12 19:13:49,861 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":5999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5999#DEFAULT#DEFAULT_GROUP@@base-upms-admin"},"lastHeartBeatTime":1652349698624,"metadataId":"192.168.31.142:5999:DEFAULT"}
+
+2022-05-12 19:13:49,861 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, 192.168.31.142:5999#true
+
+2022-05-12 19:13:50,245 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=2}, 192.168.31.142:5999#true
+
+2022-05-12 19:13:50,586 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}, 192.168.31.142:6002#true
+
+2022-05-12 19:13:50,850 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, 192.168.31.142:5000#true
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:63420#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:9999#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:6003#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:58390#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:57936#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,291 INFO Client connection 192.168.31.142:61192#true disconnect, remove instances and subscribers
+
+2022-05-12 19:13:51,516 INFO Client connection 192.168.31.142:57936#true connect
+
+2022-05-12 19:13:53,586 INFO Client connection 192.168.31.142:58390#true connect
+
+2022-05-12 19:13:54,435 INFO Client connection 192.168.31.142:9999#true connect
+
+2022-05-12 19:13:54,435 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, 192.168.31.142:9999#true
+
+2022-05-12 19:13:54,551 INFO Client connection 192.168.31.142:6003#true connect
+
+2022-05-12 19:13:54,551 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, 192.168.31.142:6003#true
+
+2022-05-12 19:13:54,784 INFO Client connection 192.168.31.142:63420#true connect
+
+2022-05-12 19:13:55,371 INFO Client connection 192.168.31.142:61192#true connect
+
+2022-05-12 20:20:02,393 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":5999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5999#DEFAULT#DEFAULT_GROUP@@base-upms-admin"},"lastHeartBeatTime":1652355256443,"metadataId":"192.168.31.142:5999:DEFAULT"}
+
+2022-05-12 20:20:02,393 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, 192.168.31.142:5999#true
+
+2022-05-12 20:20:02,393 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":6002,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6002#DEFAULT#DEFAULT_GROUP@@base-weixin-admin"},"lastHeartBeatTime":1652355251685,"metadataId":"192.168.31.142:6002:DEFAULT"}
+
+2022-05-12 20:20:02,394 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=3}, 192.168.31.142:6002#true
+
+2022-05-12 20:20:02,394 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":5000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5000#DEFAULT#DEFAULT_GROUP@@base-auth"},"lastHeartBeatTime":1652355251839,"metadataId":"192.168.31.142:5000:DEFAULT"}
+
+2022-05-12 20:20:02,394 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, 192.168.31.142:5000#true
+
+2022-05-12 20:20:02,397 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":9999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#9999#DEFAULT#DEFAULT_GROUP@@base-gateway"},"lastHeartBeatTime":1652355255468,"metadataId":"192.168.31.142:9999:DEFAULT"}
+
+2022-05-12 20:20:02,397 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, 192.168.31.142:9999#true
+
+2022-05-12 20:20:02,397 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":6003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6003#DEFAULT#DEFAULT_GROUP@@base-mall-admin"},"lastHeartBeatTime":1652355255608,"metadataId":"192.168.31.142:6003:DEFAULT"}
+
+2022-05-12 20:20:02,397 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, 192.168.31.142:6003#true
+
+2022-05-12 20:20:02,548 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=4}, 192.168.31.142:5000#true
+
+2022-05-12 20:20:03,900 INFO Client connection 192.168.31.142:9999#true disconnect, remove instances and subscribers
+
+2022-05-12 20:20:03,900 INFO Client connection 192.168.31.142:6003#true disconnect, remove instances and subscribers
+
+2022-05-12 20:20:03,901 INFO Client connection 192.168.31.142:58390#true disconnect, remove instances and subscribers
+
+2022-05-12 20:20:03,901 INFO Client connection 192.168.31.142:5999#true disconnect, remove instances and subscribers
+
+2022-05-12 20:20:03,901 INFO Client connection 192.168.31.142:57936#true disconnect, remove instances and subscribers
+
+2022-05-12 20:20:23,955 INFO Client connection 192.168.31.142:9999#true connect
+
+2022-05-12 20:20:23,955 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=4}, 192.168.31.142:9999#true
+
+2022-05-12 20:20:24,282 INFO Client connection 192.168.31.142:6003#true connect
+
+2022-05-12 20:20:24,282 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}, 192.168.31.142:6003#true
+
+2022-05-12 20:20:24,927 INFO Client connection 192.168.31.142:5999#true connect
+
+2022-05-12 20:20:24,927 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}, 192.168.31.142:5999#true
+
+2022-05-12 20:20:25,167 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=4}, 192.168.31.142:6002#true
+
+2022-05-12 20:20:25,580 INFO Client connection 192.168.31.142:57936#true connect
+
+2022-05-12 20:20:29,644 INFO Client connection 192.168.31.142:58390#true connect
+
+2022-05-12 21:15:33,403 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=5}, ip: {"ip":"192.168.31.142","port":6003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6003#DEFAULT#DEFAULT_GROUP@@base-mall-admin"},"lastHeartBeatTime":1652361289251,"metadataId":"192.168.31.142:6003:DEFAULT"}
+
+2022-05-12 21:15:33,403 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, ip: {"ip":"192.168.31.142","port":5999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5999#DEFAULT#DEFAULT_GROUP@@base-upms-admin"},"lastHeartBeatTime":1652361290259,"metadataId":"192.168.31.142:5999:DEFAULT"}
+
+2022-05-12 21:15:33,403 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, 192.168.31.142:5999#true
+
+2022-05-12 21:15:33,403 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=5}, ip: {"ip":"192.168.31.142","port":9999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#9999#DEFAULT#DEFAULT_GROUP@@base-gateway"},"lastHeartBeatTime":1652361289251,"metadataId":"192.168.31.142:9999:DEFAULT"}
+
+2022-05-12 21:15:33,403 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=5}, 192.168.31.142:6003#true
+
+2022-05-12 21:15:33,403 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=5}, ip: {"ip":"192.168.31.142","port":6002,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6002#DEFAULT#DEFAULT_GROUP@@base-weixin-admin"},"lastHeartBeatTime":1652361290075,"metadataId":"192.168.31.142:6002:DEFAULT"}
+
+2022-05-12 21:15:33,403 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=5}, 192.168.31.142:9999#true
+
+2022-05-12 21:15:33,403 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=5}, 192.168.31.142:6002#true
+
+2022-05-12 21:15:33,403 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, ip: {"ip":"192.168.31.142","port":5000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5000#DEFAULT#DEFAULT_GROUP@@base-auth"},"lastHeartBeatTime":1652361290408,"metadataId":"192.168.31.142:5000:DEFAULT"}
+
+2022-05-12 21:15:33,403 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, 192.168.31.142:5000#true
+
+2022-05-12 21:15:33,921 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=6}, 192.168.31.142:6002#true
+
+2022-05-12 21:15:34,110 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}, 192.168.31.142:5999#true
+
+2022-05-12 21:15:34,251 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, 192.168.31.142:5000#true
+
+2022-05-12 21:16:33,957 INFO Client connection 192.168.31.142:9999#true disconnect, remove instances and subscribers
+
+2022-05-12 21:16:33,957 INFO Client connection 192.168.31.142:6003#true disconnect, remove instances and subscribers
+
+2022-05-12 21:16:33,957 INFO Client connection 192.168.31.142:64777#true disconnect, remove instances and subscribers
+
+2022-05-12 21:16:33,957 INFO Client connection 192.168.31.142:58390#true disconnect, remove instances and subscribers
+
+2022-05-12 21:16:33,957 INFO Client connection 192.168.31.142:57936#true disconnect, remove instances and subscribers
+
+2022-05-12 21:16:33,957 WARN namespace : public, [DEFAULT_GROUP@@base-gateway] services are automatically cleaned
+
+2022-05-12 21:16:33,957 WARN namespace : public, [DEFAULT_GROUP@@base-mall-admin] services are automatically cleaned
+
+2022-05-12 21:16:35,398 INFO Client connection 192.168.31.142:57936#true connect
+
+2022-05-12 21:16:36,362 INFO Client connection 192.168.31.142:9999#true connect
+
+2022-05-12 21:16:36,362 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=0}, 192.168.31.142:9999#true
+
+2022-05-12 21:16:36,383 INFO Client connection 192.168.31.142:6003#true connect
+
+2022-05-12 21:16:36,383 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, 192.168.31.142:6003#true
+
+2022-05-12 21:16:36,657 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, ip: {"ip":"192.168.31.142","port":5999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5999#DEFAULT#DEFAULT_GROUP@@base-upms-admin"},"lastHeartBeatTime":1652361334110,"metadataId":"192.168.31.142:5999:DEFAULT"}
+
+2022-05-12 21:16:36,657 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, 192.168.31.142:5999#true
+
+2022-05-12 21:16:36,657 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, ip: {"ip":"192.168.31.142","port":5000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5000#DEFAULT#DEFAULT_GROUP@@base-auth"},"lastHeartBeatTime":1652361334251,"metadataId":"192.168.31.142:5000:DEFAULT"}
+
+2022-05-12 21:16:36,657 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=7}, ip: {"ip":"192.168.31.142","port":6002,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6002#DEFAULT#DEFAULT_GROUP@@base-weixin-admin"},"lastHeartBeatTime":1652361333921,"metadataId":"192.168.31.142:6002:DEFAULT"}
+
+2022-05-12 21:16:36,657 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, 192.168.31.142:5000#true
+
+2022-05-12 21:16:36,657 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=7}, 192.168.31.142:6002#true
+
+2022-05-12 21:16:37,194 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=8}, 192.168.31.142:6002#true
+
+2022-05-12 21:16:37,377 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=8}, 192.168.31.142:5999#true
+
+2022-05-12 21:16:37,513 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=8}, 192.168.31.142:5000#true
+
+2022-05-12 21:16:40,414 INFO Client connection 192.168.31.142:64777#true connect
+
+2022-05-12 21:16:41,317 INFO Client connection 192.168.31.142:58390#true connect
+
+2022-05-12 22:38:42,979 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=9}, ip: {"ip":"192.168.31.142","port":6002,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6002#DEFAULT#DEFAULT_GROUP@@base-weixin-admin"},"lastHeartBeatTime":1652362609872,"metadataId":"192.168.31.142:6002:DEFAULT"}
+
+2022-05-12 22:38:42,979 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, ip: {"ip":"192.168.31.142","port":5999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5999#DEFAULT#DEFAULT_GROUP@@base-upms-admin"},"lastHeartBeatTime":1652362609953,"metadataId":"192.168.31.142:5999:DEFAULT"}
+
+2022-05-12 22:38:42,979 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":6003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6003#DEFAULT#DEFAULT_GROUP@@base-mall-admin"},"lastHeartBeatTime":1652362608819,"metadataId":"192.168.31.142:6003:DEFAULT"}
+
+2022-05-12 22:38:42,979 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=9}, 192.168.31.142:6002#true
+
+2022-05-12 22:38:42,979 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, 192.168.31.142:6003#true
+
+2022-05-12 22:38:42,979 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, 192.168.31.142:5999#true
+
+2022-05-12 22:38:42,979 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, ip: {"ip":"192.168.31.142","port":5000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#5000#DEFAULT#DEFAULT_GROUP@@base-auth"},"lastHeartBeatTime":1652362610117,"metadataId":"192.168.31.142:5000:DEFAULT"}
+
+2022-05-12 22:38:42,979 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, 192.168.31.142:5000#true
+
+2022-05-12 22:38:42,979 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, ip: {"ip":"192.168.31.142","port":9999,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#9999#DEFAULT#DEFAULT_GROUP@@base-gateway"},"lastHeartBeatTime":1652362608835,"metadataId":"192.168.31.142:9999:DEFAULT"}
+
+2022-05-12 22:38:42,979 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, 192.168.31.142:9999#true
+
+2022-05-12 22:38:43,057 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, 192.168.31.142:6003#true
+
+2022-05-12 22:38:43,057 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, 192.168.31.142:9999#true
+
+2022-05-12 22:38:44,089 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=10}, 192.168.31.142:6002#true
+
+2022-05-12 22:38:44,183 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}, 192.168.31.142:5999#true
+
+2022-05-12 22:38:44,340 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, 192.168.31.142:5000#true
+
+2022-05-12 22:38:45,189 INFO Client connection 192.168.31.142:57936#true disconnect, remove instances and subscribers
+
+2022-05-12 22:38:46,101 INFO Client connection 192.168.31.142:57936#true connect
+
+2022-05-12 23:33:30,609 INFO Client connection 192.168.31.142:58390#true disconnect, remove instances and subscribers
+
+2022-05-12 23:33:33,200 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, ip: {"ip":"192.168.31.142","port":6003,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.31.142#6003#DEFAULT#DEFAULT_GROUP@@base-mall-admin"},"lastHeartBeatTime":1652369582573,"metadataId":"192.168.31.142:6003:DEFAULT"}
+
+2022-05-12 23:33:33,200 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, 192.168.31.142:6003#true
+
+2022-05-12 23:33:35,618 INFO Client connection 192.168.31.142:6003#true disconnect, remove instances and subscribers
+
+2022-05-12 23:34:45,605 WARN namespace : public, [DEFAULT_GROUP@@base-mall-admin] services are automatically cleaned
+
+2022-05-12 23:44:14,122 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, 192.168.31.142:5999#true
+
+2022-05-12 23:44:41,855 INFO Client connection 192.168.31.142:61192#true disconnect, remove instances and subscribers
+
+2022-05-12 23:44:46,867 INFO Client connection 192.168.31.142:5999#true disconnect, remove instances and subscribers
+
+2022-05-12 23:45:04,368 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=11}, 192.168.31.142:6002#true
+
+2022-05-12 23:45:32,133 INFO Client connection 192.168.31.142:63420#true disconnect, remove instances and subscribers
+
+2022-05-12 23:45:37,135 INFO Client connection 192.168.31.142:6002#true disconnect, remove instances and subscribers
+
+2022-05-12 23:45:45,712 WARN namespace : public, [DEFAULT_GROUP@@base-upms-admin] services are automatically cleaned
+
+2022-05-12 23:45:55,467 INFO Client connection 192.168.31.142:57000#true connect
+
+2022-05-12 23:45:56,563 INFO Client connection 192.168.31.142:5999#true connect
+
+2022-05-12 23:45:56,563 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, 192.168.31.142:5999#true
+
+2022-05-12 23:46:45,717 WARN namespace : public, [DEFAULT_GROUP@@base-weixin-admin] services are automatically cleaned
+
+2022-05-12 23:47:23,379 INFO Client connection 192.168.31.142:58353#true connect
+
+2022-05-12 23:47:23,986 INFO Client connection 192.168.31.142:6002#true connect
+
+2022-05-12 23:47:23,986 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, 192.168.31.142:6002#true
+

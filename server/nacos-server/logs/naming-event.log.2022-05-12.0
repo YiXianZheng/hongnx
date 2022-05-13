@@ -1,0 +1,58 @@
+2022-05-12 16:17:04,134 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-05-12 17:15:16,807 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-05-12 17:16:33,842 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-05-12 19:13:49,853 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:9999@DEFAULT@base-gateway, region: unknown, msg: client last beat: 1652349702815
+
+2022-05-12 19:13:49,853 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5999@DEFAULT@base-upms-admin, region: unknown, msg: client last beat: 1652349698624
+
+2022-05-12 19:13:49,854 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6003@DEFAULT@base-mall-admin, region: unknown, msg: client last beat: 1652349702932
+
+2022-05-12 19:13:49,857 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652349699231
+
+2022-05-12 19:13:49,856 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6002@DEFAULT@base-weixin-admin, region: unknown, msg: client last beat: 1652349698965
+
+2022-05-12 20:20:02,393 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5999@DEFAULT@base-upms-admin, region: unknown, msg: client last beat: 1652355256443
+
+2022-05-12 20:20:02,393 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6002@DEFAULT@base-weixin-admin, region: unknown, msg: client last beat: 1652355251685
+
+2022-05-12 20:20:02,394 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652355251839
+
+2022-05-12 20:20:02,396 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:9999@DEFAULT@base-gateway, region: unknown, msg: client last beat: 1652355255468
+
+2022-05-12 20:20:02,397 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6003@DEFAULT@base-mall-admin, region: unknown, msg: client last beat: 1652355255608
+
+2022-05-12 20:20:25,164 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652358002548
+
+2022-05-12 20:20:25,370 INFO service: DEFAULT_GROUP@@base-auth {POS} {IP-ENABLED} valid: 192.168.31.142:5000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-05-12 21:15:33,403 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5999@DEFAULT@base-upms-admin, region: unknown, msg: client last beat: 1652361290259
+
+2022-05-12 21:15:33,403 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6003@DEFAULT@base-mall-admin, region: unknown, msg: client last beat: 1652361289251
+
+2022-05-12 21:15:33,403 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6002@DEFAULT@base-weixin-admin, region: unknown, msg: client last beat: 1652361290075
+
+2022-05-12 21:15:33,403 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:9999@DEFAULT@base-gateway, region: unknown, msg: client last beat: 1652361289251
+
+2022-05-12 21:15:33,403 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652361290408
+
+2022-05-12 21:16:36,655 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5999@DEFAULT@base-upms-admin, region: unknown, msg: client last beat: 1652361334110
+
+2022-05-12 21:16:36,655 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652361334251
+
+2022-05-12 21:16:36,655 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6002@DEFAULT@base-weixin-admin, region: unknown, msg: client last beat: 1652361333921
+
+2022-05-12 22:38:42,979 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5000@DEFAULT@base-auth, region: unknown, msg: client last beat: 1652362610117
+
+2022-05-12 22:38:42,979 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:5999@DEFAULT@base-upms-admin, region: unknown, msg: client last beat: 1652362609953
+
+2022-05-12 22:38:42,979 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6003@DEFAULT@base-mall-admin, region: unknown, msg: client last beat: 1652362608819
+
+2022-05-12 22:38:42,979 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6002@DEFAULT@base-weixin-admin, region: unknown, msg: client last beat: 1652362609872
+
+2022-05-12 22:38:42,979 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:9999@DEFAULT@base-gateway, region: unknown, msg: client last beat: 1652362608835
+
+2022-05-12 23:33:18,170 INFO {POS} {IP-DISABLED} valid: 192.168.31.142:6003@DEFAULT@base-mall-admin, region: unknown, msg: client last beat: 1652369582573
+

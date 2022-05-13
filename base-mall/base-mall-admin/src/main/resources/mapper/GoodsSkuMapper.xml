@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hongnx.cloud.mall.admin.mapper.GoodsSkuMapper">
+
+	<resultMap id="goodsSkuMap" type="com.hongnx.cloud.mall.common.entity.GoodsSku">
+		<id property="id" column="id"/>
+		<result property="createTime" column="create_time"/>
+		<result property="updateTime" column="update_time"/>
+		<result property="tenantId" column="tenant_id"/>
+		<result property="skuCode" column="sku_code"/>
+		<result property="spuId" column="spu_id"/>
+		<result property="picUrl" column="pic_url"/>
+		<result property="salesPrice" column="sales_price"/>
+		<result property="marketPrice" column="market_price"/>
+		<result property="costPrice" column="cost_price"/>
+		<result property="stock" column="stock"/>
+		<result property="weight" column="weight"/>
+		<result property="volume" column="volume"/>
+		<result property="delFlag" column="del_flag"/>
+		<result property="enable" column="enable"/>
+		<result property="version" column="version"/>
+	</resultMap>
+
+	<resultMap id="goodsSkuMap2" extends="goodsSkuMap" type="com.hongnx.cloud.mall.common.entity.GoodsSku">
+		<collection property="specs" ofType="com.hongnx.cloud.mall.common.entity.GoodsSkuSpecValue"
+					select="com.hongnx.cloud.mall.admin.mapper.GoodsSkuSpecValueMapper.listGoodsSkuSpecValueBySkuId"
+					column="{skuId=id}">
+		</collection>
+	</resultMap>
+
+	<sql id="goodsSkuSql">
+		sku.`id`,
+		sku.`create_time`,
+		sku.`update_time`,
+		sku.`tenant_id`,
+		sku.`sku_code`,
+		sku.`spu_id`,
+		sku.`pic_url`,
+		sku.`sales_price`,
+		sku.`market_price`,
+		sku.`cost_price`,
+		sku.`stock`,
+		sku.`weight`,
+		sku.`volume`,
+		sku.`del_flag`,
+		sku.`enable`,
+		sku.`version`
+	</sql>
+
+	<select id="getGoodsSkuById" resultMap="goodsSkuMap2">
+		SELECT
+		<include refid="goodsSkuSql"/>
+		FROM
+		goods_sku sku
+		WHERE sku.`id` = #{id}
+	</select>
+
+	<select id="listGoodsSkuBySpuId" resultMap="goodsSkuMap2">
+		SELECT
+		<include refid="goodsSkuSql"/>
+		FROM
+		goods_sku sku
+		WHERE sku.`spu_id` = #{spuId}
+	</select>
+
+	<select id="selectOneByShoppingCart" resultMap="goodsSkuMap">
+		SELECT
+		<include refid="goodsSkuSql"/>
+		FROM
+		goods_sku sku
+		WHERE sku.`enable` = '1'
+			AND sku.`id` = #{id}
+	</select>
+</mapper>

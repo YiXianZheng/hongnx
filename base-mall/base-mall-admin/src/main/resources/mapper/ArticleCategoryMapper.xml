@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hongnx.cloud.mall.admin.mapper.ArticleCategoryMapper">
+
+    <resultMap id="articleCategoryMap" type="com.hongnx.cloud.mall.common.entity.ArticleCategory">
+        <id property="id" column="id"/>
+        <result property="tenantId" column="tenant_id"/>
+        <result property="delFlag" column="del_flag"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="enable" column="enable"/>
+        <result property="sort" column="sort"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <sql id="articleCategorySql">
+        article_category.`id`,        article_category.`tenant_id`,        article_category.`del_flag`,        article_category.`create_time`,        article_category.`update_time`,        article_category.`enable`,        article_category.`sort`,        article_category.`name`    </sql>
+</mapper>

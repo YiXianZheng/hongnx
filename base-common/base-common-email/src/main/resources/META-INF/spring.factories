@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.hongnx.cloud.common.email.config.EmailConfiguration,\
+  com.hongnx.cloud.common.email.config.EmailConfigProperties,\
+  com.hongnx.cloud.common.email.util.EmailUtils

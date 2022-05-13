@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.hongnx.cloud.common.data.cache.RedisTemplateConfig,\
+    com.hongnx.cloud.common.data.cache.RedisCacheManagerConfig,\
+    com.hongnx.cloud.common.data.cache.RedisCacheAutoConfiguration,\
+    com.hongnx.cloud.common.data.tenant.TenantConfigProperties,\
+    com.hongnx.cloud.common.data.datascope.DataScopeProperties,\
+    com.hongnx.cloud.common.data.tenant.TenantContextHolderFilter,\
+    com.hongnx.cloud.common.data.tenant.BaseFeignTenantConfiguration,\
+    com.hongnx.cloud.common.data.mybatis.MybatisPlusConfig,\
+    com.hongnx.cloud.common.data.resolver.WebMvcConfig

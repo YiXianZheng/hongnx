@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hongnx.cloud.mall.admin.mapper.UserCollectMapper">
+
+	<resultMap id="userCollectMap" type="com.hongnx.cloud.mall.common.entity.UserCollect">
+		<id property="id" column="id"/>
+		<result property="tenantId" column="tenant_id"/>
+		<result property="delFlag" column="del_flag"/>
+		<result property="createTime" column="create_time"/>
+		<result property="updateTime" column="update_time"/>
+		<result property="type" column="type"/>
+		<result property="userId" column="user_id"/>
+		<result property="relationId" column="relation_id"/>
+	</resultMap>
+
+	<resultMap id="userCollectMap2" extends="userCollectMap" type="com.hongnx.cloud.mall.common.entity.UserCollect">
+		<collection property="goodsSpu" ofType="com.hongnx.cloud.mall.common.entity.GoodsSpu"
+					select="com.hongnx.cloud.mall.admin.mapper.GoodsSpuMapper.selectById"
+					column="{id=relation_id}">
+		</collection>
+	</resultMap>
+
+	<resultMap id="userCollectMap1" extends="userCollectMap" type="com.hongnx.cloud.mall.common.entity.UserCollect">
+		<collection property="userInfo" ofType="com.hongnx.cloud.mall.common.entity.UserInfo"
+					select="com.hongnx.cloud.mall.admin.mapper.UserInfoMapper.selectById"
+					column="{id=user_id}">
+		</collection>
+		<collection property="goodsSpu" ofType="com.hongnx.cloud.mall.common.entity.GoodsSpu"
+					select="com.hongnx.cloud.mall.admin.mapper.GoodsSpuMapper.selectById"
+					column="{id=relation_id}">
+		</collection>
+	</resultMap>
+
+	<sql id="userCollectSql">
+		user_collect.`id`,
+		user_collect.`tenant_id`,
+		user_collect.`del_flag`,
+		user_collect.`create_time`,
+		user_collect.`update_time`,
+		user_collect.`type`,
+		user_collect.`user_id`,
+		user_collect.`relation_id`
+	</sql>
+
+	<select id="selectCollectId" resultType="string">
+		SELECT
+		  user_collect.`id`
+		FROM
+		  user_collect
+		<where>
+			<if test="query.type != null">
+				AND user_collect.`type` = #{query.type}
+			</if>
+			<if test="query.userId != null">
+				AND user_collect.`user_id` = #{query.userId}
+			</if>
+			<if test="query.relationId != null">
+				AND user_collect.`relation_id` = #{query.relationId}
+			</if>
+		</where>
+	</select>
+
+	<select id="selectPage1" resultMap="userCollectMap1">
+		SELECT
+		<include refid="userCollectSql"/>
+		FROM user_collect user_collect
+		<where>
+			<if test="query.type != null">
+				AND user_collect.`type` = #{query.type}
+			</if>
+			<if test="query.userId != null">
+				AND user_collect.`user_id` = #{query.userId}
+			</if>
+			<if test="query.relationId != null">
+				AND user_collect.`relation_id` = #{query.relationId}
+			</if>
+		</where>
+	</select>
+
+	<select id="selectPage2" resultMap="userCollectMap2">
+		SELECT
+		<include refid="userCollectSql"/>
+		FROM user_collect user_collect
+		<where>
+			<if test="query.type != null">
+				AND user_collect.`type` = #{query.type}
+			</if>
+			<if test="query.userId != null">
+				AND user_collect.`user_id` = #{query.userId}
+			</if>
+		</where>
+	</select>
+</mapper>

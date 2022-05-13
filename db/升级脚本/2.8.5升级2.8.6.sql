@@ -1,0 +1,1 @@
+ALTER TABLE `base_wx`.`wx_app` DROP PRIMARY KEY, ADD PRIMARY KEY (`id`); 

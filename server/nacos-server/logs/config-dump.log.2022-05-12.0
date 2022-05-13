@@ -1,0 +1,76 @@
+2022-05-12 16:09:37,351 INFO [dump-task] add task. groupKey=base-auth-dev.yml+DEFAULT_GROUP, taskKey=base-auth-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:10:24,149 INFO [dump-task] add task. groupKey=base-codegen-dev.yml+DEFAULT_GROUP, taskKey=base-codegen-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:10:55,320 INFO [dump-task] add task. groupKey=base-upms-admin-dev.yml+DEFAULT_GROUP, taskKey=base-upms-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:11:11,936 INFO [dump-task] add task. groupKey=base-weixin-admin-dev.yml+DEFAULT_GROUP, taskKey=base-weixin-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:17:50,430 INFO [dump-all-ok] dynamic_routes+DEFAULT_GROUP, 1614201945000, length=1268, md5=f945b44da6467d4ec4431d4d5f965583
+
+2022-05-12 16:17:50,442 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1614202465000, length=1830, md5=0e26c0aa7b2338eae28f6adcee9cc0fb
+
+2022-05-12 16:17:50,444 INFO [dump-all-ok] base-gateway-dev.yml+DEFAULT_GROUP, 1587379630000, length=194, md5=9508dfcabc63e8706d049d51889c42ee
+
+2022-05-12 16:17:50,444 INFO [dump-all-ok] base-auth-dev.yml+DEFAULT_GROUP, 1574348063000, length=850, md5=46c14db5a9edb65a58b5b01e05a432aa
+
+2022-05-12 16:17:50,444 INFO [dump-all-ok] base-upms-admin-dev.yml+DEFAULT_GROUP, 1606831620000, length=2116, md5=fef6e9fb081639c12f3bd486baddd616
+
+2022-05-12 16:17:50,451 INFO [dump-all-ok] base-codegen-dev.yml+DEFAULT_GROUP, 1587379689000, length=1417, md5=b547daba448b83c34d89dd71d51454f4
+
+2022-05-12 16:17:50,452 INFO [dump-all-ok] base-weixin-admin-dev.yml+DEFAULT_GROUP, 1587379708000, length=1522, md5=81970708e21d1bf3c90a4dca613a715d
+
+2022-05-12 16:17:50,456 INFO [dump-all-ok] base-mall-admin-dev.yml+DEFAULT_GROUP, 1607010629000, length=2170, md5=16afbb1faf264538c34bdc77431e7368
+
+2022-05-12 16:17:50,458 INFO [dump-all-ok] base-gitea-admin-dev.yml+DEFAULT_GROUP, 1608225413000, length=1186, md5=d4356befc25de4a302016391df909e1a
+
+2022-05-12 16:17:50,462 INFO [dump-all-ok] sentinal-joolun+SENTINEL_GROUP, 1614202630000, length=724, md5=73d9b2fd4e08e2b55704ac012c5dc3f6
+
+2022-05-12 16:19:41,891 INFO [dump-task] add task. groupKey=application-dev.yml+DEFAULT_GROUP, taskKey=application-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:20:27,366 INFO [dump-task] add task. groupKey=base-auth-dev.yml+DEFAULT_GROUP, taskKey=base-auth-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:20:56,955 INFO [dump-task] add task. groupKey=base-upms-admin-dev.yml+DEFAULT_GROUP, taskKey=base-upms-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:21:23,557 INFO [dump-task] add task. groupKey=base-codegen-dev.yml+DEFAULT_GROUP, taskKey=base-codegen-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:22:13,247 INFO [dump-task] add task. groupKey=base-weixin-admin-dev.yml+DEFAULT_GROUP, taskKey=base-weixin-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:22:28,547 INFO [dump-task] add task. groupKey=base-mall-admin-dev.yml+DEFAULT_GROUP, taskKey=base-mall-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:22:40,439 INFO [dump-task] add task. groupKey=base-gitea-admin-dev.yml+DEFAULT_GROUP, taskKey=base-gitea-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:31:30,784 INFO [dump-task] add task. groupKey=base-auth-dev.yml+DEFAULT_GROUP, taskKey=base-auth-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:32:46,908 INFO [dump-task] add task. groupKey=base-auth-dev.yml+DEFAULT_GROUP, taskKey=base-auth-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:35:03,310 INFO [dump-task] add task. groupKey=base-upms-admin-dev.yml+DEFAULT_GROUP, taskKey=base-upms-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:36:31,458 INFO [dump-task] add task. groupKey=base-codegen-dev.yml+DEFAULT_GROUP, taskKey=base-codegen-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:36:47,005 INFO [dump-task] add task. groupKey=base-weixin-admin-dev.yml+DEFAULT_GROUP, taskKey=base-weixin-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:37:01,548 INFO [dump-task] add task. groupKey=base-mall-admin-dev.yml+DEFAULT_GROUP, taskKey=base-mall-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 16:37:16,481 INFO [dump-task] add task. groupKey=base-gitea-admin-dev.yml+DEFAULT_GROUP, taskKey=base-gitea-admin-dev.yml+DEFAULT_GROUP++false+null
+
+2022-05-12 17:18:22,953 INFO [dump-all-ok] dynamic_routes+DEFAULT_GROUP, 1614201945000, length=1268, md5=f945b44da6467d4ec4431d4d5f965583
+
+2022-05-12 17:18:22,953 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1652343580000, length=1836, md5=b270fd2caa816e30a1858eb09507a1ea
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-gateway-dev.yml+DEFAULT_GROUP, 1587379630000, length=194, md5=9508dfcabc63e8706d049d51889c42ee
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-auth-dev.yml+DEFAULT_GROUP, 1652344367000, length=849, md5=278be3b150d5d72fe37970f2d9ca953a
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-upms-admin-dev.yml+DEFAULT_GROUP, 1652344503000, length=2116, md5=68132190a38ee56a5621a34fa5bb37e5
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-codegen-dev.yml+DEFAULT_GROUP, 1652344591000, length=1391, md5=70106b6fc90737d9fed7d9ecf207f4f5
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-weixin-admin-dev.yml+DEFAULT_GROUP, 1652344607000, length=1466, md5=d1620782a6e05a1c747aaaefe9532528
+
+2022-05-12 17:18:22,964 INFO [dump-all-ok] base-mall-admin-dev.yml+DEFAULT_GROUP, 1652344622000, length=2083, md5=124384625e659df94667013938e42b41
+
+2022-05-12 17:18:22,973 INFO [dump-all-ok] base-gitea-admin-dev.yml+DEFAULT_GROUP, 1652344636000, length=1145, md5=cf689185dcba1dacf095c7279606a4d0
+
+2022-05-12 17:18:22,974 INFO [dump-all-ok] sentinal-joolun+SENTINEL_GROUP, 1614202630000, length=724, md5=73d9b2fd4e08e2b55704ac012c5dc3f6
+

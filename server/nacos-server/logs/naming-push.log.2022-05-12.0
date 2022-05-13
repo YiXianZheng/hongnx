@@ -1,0 +1,1824 @@
+2022-05-12 16:23:43,184 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:23:43,221 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,85475051993100
+
+2022-05-12 16:23:43,223 INFO send udp packet: 192.168.31.142,55776,85475051993100
+
+2022-05-12 16:23:43,244 INFO [PUSH-SUCC] 62ms, all delay time 574ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:23:44,581 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:23:44,584 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,85476448244700
+
+2022-05-12 16:23:44,587 INFO send udp packet: 192.168.31.142,55776,85476448244700
+
+2022-05-12 16:23:44,610 INFO [PUSH-SUCC] 29ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:24:51,484 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}
+
+2022-05-12 16:24:51,502 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:24:51,502 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:62591, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62591,85543369282600
+
+2022-05-12 16:24:51,502 INFO send udp packet: 192.168.31.142,62591,85543369282600
+
+2022-05-12 16:24:51,529 INFO [PUSH-SUCC] 27ms, all delay time 623ms, SLA 46ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:31:41,978 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:31:41,978 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:62591, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62591,85953844954700
+
+2022-05-12 16:31:41,978 INFO send udp packet: 192.168.31.142,62591,85953844954700
+
+2022-05-12 16:31:51,991 INFO retry to push data, key: 192.168.31.142,62591,85953844954700
+
+2022-05-12 16:32:00,141 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}
+
+2022-05-12 16:32:00,163 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:32:00,163 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:50684, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50684,85972030032200
+
+2022-05-12 16:32:00,163 INFO send udp packet: 192.168.31.142,50684,85972030032200
+
+2022-05-12 16:32:00,163 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:32:00,164 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:62591, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62591,85972030400100
+
+2022-05-12 16:32:00,164 INFO send udp packet: 192.168.31.142,62591,85972030400100
+
+2022-05-12 16:32:00,190 INFO [PUSH-SUCC] 27ms, all delay time 625ms, SLA 49ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:32:01,991 WARN max re-push times reached, retry times 2, key: 192.168.31.142,62591,85953844954700
+
+2022-05-12 16:32:01,992 ERROR [PUSH-FAIL] 20014ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, reason=null, target=192.168.31.142
+
+2022-05-12 16:32:10,179 INFO retry to push data, key: 192.168.31.142,62591,85972030400100
+
+2022-05-12 16:32:20,192 WARN max re-push times reached, retry times 2, key: 192.168.31.142,62591,85972030400100
+
+2022-05-12 16:32:20,192 ERROR [PUSH-FAIL] 20029ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, reason=null, target=192.168.31.142
+
+2022-05-12 16:32:57,125 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:32:57,126 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:50684, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50684,86028992968600
+
+2022-05-12 16:32:57,126 INFO send udp packet: 192.168.31.142,50684,86028992968600
+
+2022-05-12 16:32:57,139 INFO [PUSH-SUCC] 14ms, all delay time 597ms, SLA 597ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:33:21,829 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:33:21,830 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:49681, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,49681,86053696472800
+
+2022-05-12 16:33:21,830 INFO send udp packet: 192.168.31.142,49681,86053696472800
+
+2022-05-12 16:33:21,837 INFO [PUSH-SUCC] 8ms, all delay time 539ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=4}, DataSize=0
+
+2022-05-12 16:33:23,567 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:33:23,569 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:50684, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50684,86055434840500
+
+2022-05-12 16:33:23,569 INFO send udp packet: 192.168.31.142,50684,86055434840500
+
+2022-05-12 16:33:23,569 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:33:23,569 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:49681, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,49681,86055436883200
+
+2022-05-12 16:33:23,569 INFO send udp packet: 192.168.31.142,49681,86055436883200
+
+2022-05-12 16:33:23,615 INFO [PUSH-SUCC] 46ms, all delay time 644ms, SLA 644ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:33:33,576 INFO retry to push data, key: 192.168.31.142,50684,86055434840500
+
+2022-05-12 16:33:43,590 WARN max re-push times reached, retry times 2, key: 192.168.31.142,50684,86055434840500
+
+2022-05-12 16:33:43,591 ERROR [PUSH-FAIL] 20024ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, reason=null, target=192.168.31.142
+
+2022-05-12 16:36:55,744 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:36:55,745 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:50238, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50238,86267611756600
+
+2022-05-12 16:36:55,746 INFO send udp packet: 192.168.31.142,50238,86267611756600
+
+2022-05-12 16:36:55,755 INFO [PUSH-SUCC] 11ms, all delay time 569ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:36:57,472 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:36:57,473 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:50238, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50238,86269339773800
+
+2022-05-12 16:36:57,473 INFO send udp packet: 192.168.31.142,50238,86269339773800
+
+2022-05-12 16:36:57,511 INFO [PUSH-SUCC] 39ms, all delay time 620ms, SLA 620ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:38:12,455 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:38:12,455 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:54014, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,54014,86344321902100
+
+2022-05-12 16:38:12,455 INFO send udp packet: 192.168.31.142,54014,86344321902100
+
+2022-05-12 16:38:12,460 INFO [PUSH-SUCC] 6ms, all delay time 561ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:38:13,112 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:38:13,113 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:54014, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,54014,86344979813400
+
+2022-05-12 16:38:13,113 INFO send udp packet: 192.168.31.142,54014,86344979813400
+
+2022-05-12 16:38:13,115 INFO [PUSH-SUCC] 3ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:40:20,154 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:40:20,154 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:60054, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,60054,86472020949600
+
+2022-05-12 16:40:20,154 INFO send udp packet: 192.168.31.142,60054,86472020949600
+
+2022-05-12 16:40:20,161 INFO [PUSH-SUCC] 7ms, all delay time 542ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:40:21,889 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:40:21,889 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:60054, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,60054,86473756199600
+
+2022-05-12 16:40:21,890 INFO send udp packet: 192.168.31.142,60054,86473756199600
+
+2022-05-12 16:40:21,932 INFO [PUSH-SUCC] 43ms, all delay time 593ms, SLA 593ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:48:22,705 INFO DEFAULT_GROUP@@base-codegen is changed, add it to push queue.
+
+2022-05-12 16:48:22,705 INFO serviceName: DEFAULT_GROUP@@base-codegen changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,86954572188100
+
+2022-05-12 16:48:22,705 INFO send udp packet: 192.168.31.142,55776,86954572188100
+
+2022-05-12 16:48:22,705 INFO [PUSH-SUCC] 0ms, all delay time 579ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-codegen', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:48:27,658 INFO DEFAULT_GROUP@@base-gitea-admin is changed, add it to push queue.
+
+2022-05-12 16:48:27,658 INFO serviceName: DEFAULT_GROUP@@base-gitea-admin changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,86959524900400
+
+2022-05-12 16:48:27,658 INFO send udp packet: 192.168.31.142,55776,86959524900400
+
+2022-05-12 16:48:27,658 INFO [PUSH-SUCC] 1ms, all delay time 511ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gitea-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:48:30,361 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:48:30,361 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,86962228310900
+
+2022-05-12 16:48:30,361 INFO send udp packet: 192.168.31.142,55776,86962228310900
+
+2022-05-12 16:48:30,362 INFO [PUSH-SUCC] 1ms, all delay time 610ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 16:49:44,409 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:49:44,410 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,87036276362000
+
+2022-05-12 16:49:44,410 INFO send udp packet: 192.168.31.142,55776,87036276362000
+
+2022-05-12 16:49:44,416 INFO [PUSH-SUCC] 7ms, all delay time 557ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 16:51:28,913 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:51:28,914 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,87140780523400
+
+2022-05-12 16:51:28,914 INFO send udp packet: 192.168.31.142,55776,87140780523400
+
+2022-05-12 16:51:28,924 INFO [PUSH-SUCC] 11ms, all delay time 563ms, SLA 563ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,021 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:51:29,021 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:51:29,021 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:51:29,022 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:60054, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,60054,87140888879300
+
+2022-05-12 16:51:29,022 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:54014, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,54014,87140888881600
+
+2022-05-12 16:51:29,022 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:51:29,022 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:49681, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,49681,87140888901100
+
+2022-05-12 16:51:29,022 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:51:29,022 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,87140889123100
+
+2022-05-12 16:51:29,022 INFO send udp packet: 192.168.31.142,60054,87140888879300
+
+2022-05-12 16:51:29,023 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,87140889174800
+
+2022-05-12 16:51:29,023 INFO send udp packet: 192.168.31.142,54014,87140888881600
+
+2022-05-12 16:51:29,024 INFO send udp packet: 192.168.31.142,49681,87140888901100
+
+2022-05-12 16:51:29,025 INFO send udp packet: 192.168.31.142,55776,87140889123100
+
+2022-05-12 16:51:29,026 INFO send udp packet: 192.168.31.142,55776,87140889174800
+
+2022-05-12 16:51:29,030 INFO [PUSH-SUCC] 9ms, all delay time 513ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,032 INFO [PUSH-SUCC] 10ms, all delay time 515ms, SLA 515ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,032 INFO [PUSH-SUCC] 11ms, all delay time 550ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,035 INFO [PUSH-SUCC] 14ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,036 INFO [PUSH-SUCC] 14ms, all delay time 554ms, SLA 554ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:51:29,130 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:51:29,130 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:50238, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,50238,87140997112600
+
+2022-05-12 16:51:29,130 INFO send udp packet: 192.168.31.142,50238,87140997112600
+
+2022-05-12 16:51:29,146 INFO [PUSH-SUCC] 15ms, all delay time 591ms, SLA 591ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 16:52:02,524 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:52:02,525 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87174391367200
+
+2022-05-12 16:52:02,525 INFO send udp packet: 192.168.31.142,62438,87174391367200
+
+2022-05-12 16:52:02,531 INFO [PUSH-SUCC] 7ms, all delay time 586ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, DataSize=0
+
+2022-05-12 16:52:03,830 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:52:03,831 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87175697284200
+
+2022-05-12 16:52:03,831 INFO send udp packet: 192.168.31.142,62438,87175697284200
+
+2022-05-12 16:52:03,831 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 16:52:03,831 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:55776, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55776,87175697904000
+
+2022-05-12 16:52:03,831 INFO send udp packet: 192.168.31.142,55776,87175697904000
+
+2022-05-12 16:52:03,851 INFO [PUSH-SUCC] 21ms, all delay time 542ms, SLA 542ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:52:13,841 INFO retry to push data, key: 192.168.31.142,55776,87175697904000
+
+2022-05-12 16:52:23,856 WARN max re-push times reached, retry times 2, key: 192.168.31.142,55776,87175697904000
+
+2022-05-12 16:52:23,856 ERROR [PUSH-FAIL] 20025ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, reason=null, target=192.168.31.142
+
+2022-05-12 16:52:31,896 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:52:31,896 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:55008, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55008,87203763533200
+
+2022-05-12 16:52:31,897 INFO send udp packet: 192.168.31.142,55008,87203763533200
+
+2022-05-12 16:52:31,901 INFO [PUSH-SUCC] 5ms, all delay time 538ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0
+
+2022-05-12 16:52:32,550 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 16:52:32,550 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:55008, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,55008,87204417405400
+
+2022-05-12 16:52:32,550 INFO send udp packet: 192.168.31.142,55008,87204417405400
+
+2022-05-12 16:52:32,577 INFO [PUSH-SUCC] 27ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:53:04,123 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:53:04,123 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:52276, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,52276,87235989896400
+
+2022-05-12 16:53:04,123 INFO send udp packet: 192.168.31.142,52276,87235989896400
+
+2022-05-12 16:53:04,128 INFO [PUSH-SUCC] 5ms, all delay time 603ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=2}, DataSize=0
+
+2022-05-12 16:53:04,675 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:53:04,675 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:52276, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,52276,87236541832800
+
+2022-05-12 16:53:04,675 INFO send udp packet: 192.168.31.142,52276,87236541832800
+
+2022-05-12 16:53:04,698 INFO [PUSH-SUCC] 23ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:53:31,066 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:53:31,066 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61938, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61938,87262933086000
+
+2022-05-12 16:53:31,066 INFO send udp packet: 192.168.31.142,61938,87262933086000
+
+2022-05-12 16:53:31,071 INFO [PUSH-SUCC] 5ms, all delay time 588ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:53:31,610 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:53:31,611 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61938, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61938,87263477628900
+
+2022-05-12 16:53:31,611 INFO send udp packet: 192.168.31.142,61938,87263477628900
+
+2022-05-12 16:53:31,614 INFO [PUSH-SUCC] 3ms, all delay time 539ms, SLA 539ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:54:04,801 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:54:04,802 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:64938, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64938,87296668731900
+
+2022-05-12 16:54:04,802 INFO send udp packet: 192.168.31.142,64938,87296668731900
+
+2022-05-12 16:54:04,806 INFO [PUSH-SUCC] 5ms, all delay time 540ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:54:05,447 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:54:05,447 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:64938, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64938,87297313844600
+
+2022-05-12 16:54:05,447 INFO send udp packet: 192.168.31.142,64938,87297313844600
+
+2022-05-12 16:54:05,449 INFO [PUSH-SUCC] 2ms, all delay time 533ms, SLA 534ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 16:54:25,029 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 16:54:25,030 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87316896640500
+
+2022-05-12 16:54:25,031 INFO send udp packet: 192.168.31.142,62438,87316896640500
+
+2022-05-12 16:54:25,037 INFO [PUSH-SUCC] 8ms, all delay time 556ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 16:54:51,128 INFO DEFAULT_GROUP@@base-codegen is changed, add it to push queue.
+
+2022-05-12 16:54:51,129 INFO serviceName: DEFAULT_GROUP@@base-codegen changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87342995431500
+
+2022-05-12 16:54:51,129 INFO send udp packet: 192.168.31.142,62438,87342995431500
+
+2022-05-12 16:54:51,134 INFO [PUSH-SUCC] 6ms, all delay time 588ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-codegen', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:54:52,645 INFO DEFAULT_GROUP@@base-gitea-admin is changed, add it to push queue.
+
+2022-05-12 16:54:52,645 INFO serviceName: DEFAULT_GROUP@@base-gitea-admin changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87344512586900
+
+2022-05-12 16:54:52,645 INFO send udp packet: 192.168.31.142,62438,87344512586900
+
+2022-05-12 16:54:52,648 INFO [PUSH-SUCC] 3ms, all delay time 607ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gitea-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 16:54:54,050 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 16:54:54,050 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87345917118600
+
+2022-05-12 16:54:54,050 INFO send udp packet: 192.168.31.142,62438,87345917118600
+
+2022-05-12 16:54:54,052 INFO [PUSH-SUCC] 2ms, all delay time 517ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 16:55:42,962 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 16:55:42,962 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:62438, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,62438,87394829718100
+
+2022-05-12 16:55:42,962 INFO send udp packet: 192.168.31.142,62438,87394829718100
+
+2022-05-12 16:55:42,964 INFO [PUSH-SUCC] 2ms, all delay time 586ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 17:19:13,573 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 17:19:13,587 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,725545298700
+
+2022-05-12 17:19:13,589 INFO send udp packet: 192.168.31.142,64777,725545298700
+
+2022-05-12 17:19:13,600 INFO [PUSH-SUCC] 28ms, all delay time 589ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 17:19:14,557 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 17:19:14,566 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,726529932000
+
+2022-05-12 17:19:14,566 INFO send udp packet: 192.168.31.142,64777,726529932000
+
+2022-05-12 17:19:14,568 INFO [PUSH-SUCC] 11ms, all delay time 525ms, SLA 525ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:20:05,544 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:20:05,545 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,777516260800
+
+2022-05-12 17:20:05,545 INFO send udp packet: 192.168.31.142,57936,777516260800
+
+2022-05-12 17:20:05,546 INFO [PUSH-SUCC] 2ms, all delay time 563ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 17:20:06,316 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:20:06,316 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,778288422500
+
+2022-05-12 17:20:06,316 INFO send udp packet: 192.168.31.142,57936,778288422500
+
+2022-05-12 17:20:06,317 INFO [PUSH-SUCC] 1ms, all delay time 526ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:20:21,782 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:20:21,782 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,793754354200
+
+2022-05-12 17:20:21,782 INFO send udp packet: 192.168.31.142,64777,793754354200
+
+2022-05-12 17:20:21,782 INFO [PUSH-SUCC] 0ms, all delay time 536ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:20:22,650 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 17:20:22,651 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,794622695000
+
+2022-05-12 17:20:22,651 INFO send udp packet: 192.168.31.142,57936,794622695000
+
+2022-05-12 17:20:22,652 INFO [PUSH-SUCC] 2ms, all delay time 531ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 17:20:50,322 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}
+
+2022-05-12 17:20:50,378 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 17:20:50,379 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,822350766100
+
+2022-05-12 17:20:50,379 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 17:20:50,379 INFO send udp packet: 192.168.31.142,57936,822350766100
+
+2022-05-12 17:20:50,379 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,822351297300
+
+2022-05-12 17:20:50,379 INFO send udp packet: 192.168.31.142,61192,822351297300
+
+2022-05-12 17:20:50,385 INFO [PUSH-SUCC] 7ms, all delay time 545ms, SLA 63ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:20:50,401 INFO [PUSH-SUCC] 22ms, all delay time 561ms, SLA 79ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:22:08,547 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 17:22:08,548 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,900520005100
+
+2022-05-12 17:22:08,548 INFO send udp packet: 192.168.31.142,64777,900520005100
+
+2022-05-12 17:22:08,551 INFO [PUSH-SUCC] 4ms, all delay time 564ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:22:08,763 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:22:08,763 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,900735319800
+
+2022-05-12 17:22:08,763 INFO send udp packet: 192.168.31.142,61192,900735319800
+
+2022-05-12 17:22:08,765 INFO [PUSH-SUCC] 2ms, all delay time 599ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:22:10,401 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 17:22:10,401 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 17:22:10,401 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,902373850400
+
+2022-05-12 17:22:10,401 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,902373839100
+
+2022-05-12 17:22:10,402 INFO send udp packet: 192.168.31.142,64777,902373850400
+
+2022-05-12 17:22:10,402 INFO send udp packet: 192.168.31.142,64777,902373839100
+
+2022-05-12 17:22:10,402 INFO [PUSH-SUCC] 1ms, all delay time 511ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 17:22:10,403 INFO [PUSH-SUCC] 2ms, all delay time 561ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 17:22:35,817 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}
+
+2022-05-12 17:22:35,952 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 17:22:35,952 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,927924148500
+
+2022-05-12 17:22:35,952 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 17:22:35,952 INFO send udp packet: 192.168.31.142,63420,927924148500
+
+2022-05-12 17:22:35,952 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,927924503000
+
+2022-05-12 17:22:35,952 INFO send udp packet: 192.168.31.142,64777,927924503000
+
+2022-05-12 17:22:35,961 INFO [PUSH-SUCC] 9ms, all delay time 600ms, SLA 144ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:22:35,976 INFO [PUSH-SUCC] 24ms, all delay time 615ms, SLA 159ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:23:07,170 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:23:07,170 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,959142222400
+
+2022-05-12 17:23:07,170 INFO send udp packet: 192.168.31.142,63420,959142222400
+
+2022-05-12 17:23:07,172 INFO [PUSH-SUCC] 2ms, all delay time 537ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:23:07,724 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 17:23:07,724 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,959696432500
+
+2022-05-12 17:23:07,724 INFO send udp packet: 192.168.31.142,63420,959696432500
+
+2022-05-12 17:23:07,725 INFO [PUSH-SUCC] 1ms, all delay time 520ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:23:14,791 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}
+
+2022-05-12 17:23:14,908 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 17:23:14,908 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,966880382500
+
+2022-05-12 17:23:14,908 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 17:23:14,908 INFO send udp packet: 192.168.31.142,64777,966880382500
+
+2022-05-12 17:23:14,908 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,966880672000
+
+2022-05-12 17:23:14,908 INFO send udp packet: 192.168.31.142,58390,966880672000
+
+2022-05-12 17:23:14,914 INFO [PUSH-SUCC] 6ms, all delay time 584ms, SLA 124ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:23:14,932 INFO [PUSH-SUCC] 24ms, all delay time 602ms, SLA 142ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 17:23:26,189 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 17:23:26,189 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,978161788900
+
+2022-05-12 17:23:26,189 INFO send udp packet: 192.168.31.142,58390,978161788900
+
+2022-05-12 17:23:26,191 INFO [PUSH-SUCC] 2ms, all delay time 539ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 17:32:59,219 INFO DEFAULT_GROUP@@base-codegen is changed, add it to push queue.
+
+2022-05-12 17:32:59,219 INFO serviceName: DEFAULT_GROUP@@base-codegen changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,1551191376700
+
+2022-05-12 17:32:59,219 INFO send udp packet: 192.168.31.142,64777,1551191376700
+
+2022-05-12 17:32:59,222 INFO [PUSH-SUCC] 3ms, all delay time 531ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-codegen', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 19:13:49,858 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}
+
+2022-05-12 19:13:49,858 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}
+
+2022-05-12 19:13:49,861 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}
+
+2022-05-12 19:13:49,861 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}
+
+2022-05-12 19:13:49,861 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=2}
+
+2022-05-12 19:13:50,245 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7602352050700
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7602352005600
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7602352398400
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,7602352480200
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,7602352546000
+
+2022-05-12 19:13:50,380 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,7602352620900
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7602352381600
+
+2022-05-12 19:13:50,381 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,7602352769300
+
+2022-05-12 19:13:50,381 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,7602352881700
+
+2022-05-12 19:13:50,380 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7602352005600
+
+2022-05-12 19:13:50,381 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7602352973600
+
+2022-05-12 19:13:50,381 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 19:13:50,381 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7602353079200
+
+2022-05-12 19:13:50,380 INFO send udp packet: 192.168.31.142,63420,7602352050700
+
+2022-05-12 19:13:50,386 INFO send udp packet: 192.168.31.142,63420,7602352005600
+
+2022-05-12 19:13:50,387 INFO send udp packet: 192.168.31.142,64777,7602352398400
+
+2022-05-12 19:13:50,388 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,389 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7602361625900
+
+2022-05-12 19:13:50,389 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 19:13:50,389 INFO send udp packet: 192.168.31.142,58390,7602352480200
+
+2022-05-12 19:13:50,389 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,7602361864400
+
+2022-05-12 19:13:50,390 INFO send udp packet: 192.168.31.142,57936,7602352546000
+
+2022-05-12 19:13:50,391 INFO send udp packet: 192.168.31.142,61192,7602352620900
+
+2022-05-12 19:13:50,392 INFO send udp packet: 192.168.31.142,64777,7602352381600
+
+2022-05-12 19:13:50,392 INFO send udp packet: 192.168.31.142,57936,7602352769300
+
+2022-05-12 19:13:50,393 INFO send udp packet: 192.168.31.142,61192,7602352881700
+
+2022-05-12 19:13:50,393 INFO send udp packet: 192.168.31.142,63420,7602352005600
+
+2022-05-12 19:13:50,393 INFO send udp packet: 192.168.31.142,64777,7602352973600
+
+2022-05-12 19:13:50,393 INFO send udp packet: 192.168.31.142,64777,7602353079200
+
+2022-05-12 19:13:50,394 INFO send udp packet: 192.168.31.142,64777,7602361625900
+
+2022-05-12 19:13:50,394 INFO send udp packet: 192.168.31.142,58390,7602361864400
+
+2022-05-12 19:13:50,406 INFO [PUSH-SUCC] 26ms, all delay time 548ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,406 INFO [PUSH-SUCC] 26ms, all delay time 548ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,406 INFO [PUSH-SUCC] 25ms, all delay time 552ms, SLA 161ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:50,406 INFO [PUSH-SUCC] 25ms, all delay time 552ms, SLA 161ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:50,406 INFO [PUSH-SUCC] 26ms, all delay time 548ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,407 INFO [PUSH-SUCC] 27ms, all delay time 553ms, SLA 162ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:50,410 INFO [PUSH-SUCC] 30ms, all delay time 552ms, SLA 552ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,413 INFO [PUSH-SUCC] 32ms, all delay time 555ms, SLA 552ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,422 INFO [PUSH-SUCC] 33ms, all delay time 568ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,436 INFO [PUSH-SUCC] 56ms, all delay time 578ms, SLA 578ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,436 INFO [PUSH-SUCC] 56ms, all delay time 578ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,449 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.31.142,63420,7602352005600, ack json: {"type": "push-ack", "lastRefTime":"7602352005600", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 19:13:50,469 INFO [PUSH-SUCC] 88ms, all delay time 615ms, SLA 611ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:50,501 INFO [PUSH-SUCC] 113ms, all delay time 647ms, SLA 640ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, DataSize=0, target=192.168.31.142
+
+2022-05-12 19:13:51,092 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 19:13:51,093 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7603064947100
+
+2022-05-12 19:13:51,093 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 19:13:51,093 INFO send udp packet: 192.168.31.142,63420,7603064947100
+
+2022-05-12 19:13:51,093 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7603065194500
+
+2022-05-12 19:13:51,093 INFO send udp packet: 192.168.31.142,64777,7603065194500
+
+2022-05-12 19:13:51,100 INFO [PUSH-SUCC] 8ms, all delay time 514ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:51,102 INFO [PUSH-SUCC] 9ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:51,419 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:51,419 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7603391566100
+
+2022-05-12 19:13:51,419 INFO send udp packet: 192.168.31.142,64777,7603391566100
+
+2022-05-12 19:13:51,426 INFO [PUSH-SUCC] 7ms, all delay time 575ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:52,069 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:52,069 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:52,069 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,7604040943200
+
+2022-05-12 19:13:52,069 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,7604040948800
+
+2022-05-12 19:13:52,069 INFO send udp packet: 192.168.31.142,57936,7604040943200
+
+2022-05-12 19:13:52,070 INFO send udp packet: 192.168.31.142,57936,7604040948800
+
+2022-05-12 19:13:52,070 INFO [PUSH-SUCC] 1ms, all delay time 552ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:52,083 INFO [PUSH-SUCC] 14ms, all delay time 565ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:54,128 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:54,128 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 19:13:54,129 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,7606100942400
+
+2022-05-12 19:13:54,129 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,7606101000000
+
+2022-05-12 19:13:54,129 INFO send udp packet: 192.168.31.142,58390,7606100942400
+
+2022-05-12 19:13:54,130 INFO send udp packet: 192.168.31.142,58390,7606101000000
+
+2022-05-12 19:13:54,138 INFO [PUSH-SUCC] 10ms, all delay time 552ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:54,138 INFO [PUSH-SUCC] 10ms, all delay time 552ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}, DataSize=0
+
+2022-05-12 19:13:54,996 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 19:13:54,996 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7606968519400
+
+2022-05-12 19:13:54,996 INFO send udp packet: 192.168.31.142,64777,7606968519400
+
+2022-05-12 19:13:55,006 INFO [PUSH-SUCC] 10ms, all delay time 571ms, SLA 571ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:55,105 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 19:13:55,105 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,7607076897800
+
+2022-05-12 19:13:55,105 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 19:13:55,105 INFO send udp packet: 192.168.31.142,64777,7607076897800
+
+2022-05-12 19:13:55,106 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,7607077477400
+
+2022-05-12 19:13:55,106 INFO send udp packet: 192.168.31.142,58390,7607077477400
+
+2022-05-12 19:13:55,113 INFO [PUSH-SUCC] 8ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:55,113 INFO [PUSH-SUCC] 8ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 19:13:55,321 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 19:13:55,321 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:55,321 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:55,322 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7607293867200
+
+2022-05-12 19:13:55,322 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7607293940100
+
+2022-05-12 19:13:55,322 INFO send udp packet: 192.168.31.142,63420,7607293867200
+
+2022-05-12 19:13:55,322 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,7607293921700
+
+2022-05-12 19:13:55,322 INFO send udp packet: 192.168.31.142,63420,7607293940100
+
+2022-05-12 19:13:55,324 INFO send udp packet: 192.168.31.142,63420,7607293921700
+
+2022-05-12 19:13:55,324 INFO [PUSH-SUCC] 3ms, all delay time 540ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:55,330 INFO [PUSH-SUCC] 9ms, all delay time 546ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:55,331 INFO [PUSH-SUCC] 10ms, all delay time 547ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:55,976 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 19:13:55,976 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 19:13:55,976 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,7607948097700
+
+2022-05-12 19:13:55,976 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,7607948075200
+
+2022-05-12 19:13:55,976 INFO send udp packet: 192.168.31.142,61192,7607948097700
+
+2022-05-12 19:13:55,976 INFO send udp packet: 192.168.31.142,61192,7607948075200
+
+2022-05-12 19:13:55,981 INFO [PUSH-SUCC] 5ms, all delay time 609ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 19:13:55,981 INFO [PUSH-SUCC] 5ms, all delay time 609ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=3}, DataSize=1
+
+2022-05-12 20:20:02,394 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}
+
+2022-05-12 20:20:02,394 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=4}
+
+2022-05-12 20:20:02,396 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=4}
+
+2022-05-12 20:20:02,399 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=4}
+
+2022-05-12 20:20:02,399 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}
+
+2022-05-12 20:20:02,548 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}
+
+2022-05-12 20:20:02,916 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,916 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,916 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,916 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:02,917 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11574888844500
+
+2022-05-12 20:20:02,917 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11574888871400
+
+2022-05-12 20:20:02,917 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,917 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,917 INFO send udp packet: 192.168.31.142,63420,11574888844500
+
+2022-05-12 20:20:02,917 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11574888832600
+
+2022-05-12 20:20:02,917 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,11574889193100
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11574888894100
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11574889180400
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11574890219500
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11574890027100
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11574890194200
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,11574890294300
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,11574890298500
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,11574890358500
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,11574890403800
+
+2022-05-12 20:20:02,918 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:02,918 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,11574890487700
+
+2022-05-12 20:20:02,918 INFO send udp packet: 192.168.31.142,64777,11574888871400
+
+2022-05-12 20:20:02,920 INFO send udp packet: 192.168.31.142,63420,11574888832600
+
+2022-05-12 20:20:02,920 INFO send udp packet: 192.168.31.142,58390,11574889193100
+
+2022-05-12 20:20:02,921 INFO send udp packet: 192.168.31.142,63420,11574888894100
+
+2022-05-12 20:20:02,921 INFO send udp packet: 192.168.31.142,64777,11574889180400
+
+2022-05-12 20:20:02,921 INFO send udp packet: 192.168.31.142,64777,11574890219500
+
+2022-05-12 20:20:02,922 INFO send udp packet: 192.168.31.142,64777,11574890027100
+
+2022-05-12 20:20:02,922 INFO send udp packet: 192.168.31.142,64777,11574890194200
+
+2022-05-12 20:20:02,922 INFO send udp packet: 192.168.31.142,57936,11574890294300
+
+2022-05-12 20:20:02,922 INFO send udp packet: 192.168.31.142,58390,11574890298500
+
+2022-05-12 20:20:02,923 INFO send udp packet: 192.168.31.142,61192,11574890358500
+
+2022-05-12 20:20:02,926 INFO [PUSH-SUCC] 10ms, all delay time 532ms, SLA 532ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,927 INFO [PUSH-SUCC] 11ms, all delay time 528ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,928 INFO send udp packet: 192.168.31.142,57936,11574890403800
+
+2022-05-12 20:20:02,929 INFO [PUSH-SUCC] 13ms, all delay time 536ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,930 INFO [PUSH-SUCC] 12ms, all delay time 537ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,930 INFO send udp packet: 192.168.31.142,61192,11574890487700
+
+2022-05-12 20:20:02,930 INFO [PUSH-SUCC] 12ms, all delay time 537ms, SLA 536ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,931 INFO [PUSH-SUCC] 14ms, all delay time 532ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,932 INFO [PUSH-SUCC] 16ms, all delay time 538ms, SLA 384ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:02,932 INFO [PUSH-SUCC] 14ms, all delay time 538ms, SLA 384ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:02,932 INFO [PUSH-SUCC] 14ms, all delay time 538ms, SLA 384ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:02,932 INFO [PUSH-SUCC] 14ms, all delay time 538ms, SLA 384ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:02,935 INFO [PUSH-SUCC] 18ms, all delay time 541ms, SLA 541ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,942 INFO [PUSH-SUCC] 24ms, all delay time 546ms, SLA 544ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,947 INFO [PUSH-SUCC] 30ms, all delay time 554ms, SLA 553ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 20:20:02,947 INFO [PUSH-SUCC] 29ms, all delay time 553ms, SLA 399ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:24,550 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 20:20:24,551 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11596523097400
+
+2022-05-12 20:20:24,555 INFO send udp packet: 192.168.31.142,64777,11596523097400
+
+2022-05-12 20:20:24,570 INFO [PUSH-SUCC] 19ms, all delay time 613ms, SLA 613ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:24,803 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 20:20:24,804 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11596775971100
+
+2022-05-12 20:20:24,804 INFO send udp packet: 192.168.31.142,64777,11596775971100
+
+2022-05-12 20:20:24,812 INFO [PUSH-SUCC] 9ms, all delay time 530ms, SLA 530ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,370 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=0}
+
+2022-05-12 20:20:25,494 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:25,494 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11597466087600
+
+2022-05-12 20:20:25,494 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:25,495 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11597466296900
+
+2022-05-12 20:20:25,495 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:25,495 INFO send udp packet: 192.168.31.142,63420,11597466087600
+
+2022-05-12 20:20:25,497 INFO send udp packet: 192.168.31.142,64777,11597466296900
+
+2022-05-12 20:20:25,505 INFO [PUSH-SUCC] 11ms, all delay time 576ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,511 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,11597467712300
+
+2022-05-12 20:20:25,511 INFO send udp packet: 192.168.31.142,61192,11597467712300
+
+2022-05-12 20:20:25,514 INFO [PUSH-SUCC] 20ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,521 INFO [PUSH-SUCC] 26ms, all delay time 592ms, SLA 592ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,583 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}
+
+2022-05-12 20:20:25,725 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 20:20:25,725 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11597697457600
+
+2022-05-12 20:20:25,726 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 20:20:25,726 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11597697658900
+
+2022-05-12 20:20:25,726 INFO send udp packet: 192.168.31.142,63420,11597697457600
+
+2022-05-12 20:20:25,727 INFO send udp packet: 192.168.31.142,64777,11597697658900
+
+2022-05-12 20:20:25,729 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:25,729 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,11597701186000
+
+2022-05-12 20:20:25,729 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:25,729 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,11597701354500
+
+2022-05-12 20:20:25,730 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:25,730 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,11597702135900
+
+2022-05-12 20:20:25,730 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:25,730 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,11597702502100
+
+2022-05-12 20:20:25,731 INFO send udp packet: 192.168.31.142,63420,11597701186000
+
+2022-05-12 20:20:25,732 INFO send udp packet: 192.168.31.142,64777,11597701354500
+
+2022-05-12 20:20:25,733 INFO send udp packet: 192.168.31.142,57936,11597702135900
+
+2022-05-12 20:20:25,736 INFO [PUSH-SUCC] 11ms, all delay time 569ms, SLA 569ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,736 INFO [PUSH-SUCC] 10ms, all delay time 569ms, SLA 569ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,736 INFO [PUSH-SUCC] 7ms, all delay time 572ms, SLA 572ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,737 INFO [PUSH-SUCC] 8ms, all delay time 573ms, SLA 573ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,737 INFO send udp packet: 192.168.31.142,61192,11597702502100
+
+2022-05-12 20:20:25,738 INFO [PUSH-SUCC] 8ms, all delay time 574ms, SLA 574ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:25,739 INFO [PUSH-SUCC] 9ms, all delay time 575ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1, target=192.168.31.142
+
+2022-05-12 20:20:26,155 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 20:20:26,155 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,11598127208700
+
+2022-05-12 20:20:26,155 INFO send udp packet: 192.168.31.142,57936,11598127208700
+
+2022-05-12 20:20:26,160 INFO [PUSH-SUCC] 5ms, all delay time 577ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=5}, DataSize=1
+
+2022-05-12 20:20:30,168 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 20:20:30,168 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 20:20:30,169 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,11602140755300
+
+2022-05-12 20:20:30,169 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,11602140808400
+
+2022-05-12 20:20:30,169 INFO send udp packet: 192.168.31.142,58390,11602140755300
+
+2022-05-12 20:20:30,169 INFO send udp packet: 192.168.31.142,58390,11602140808400
+
+2022-05-12 20:20:30,171 INFO [PUSH-SUCC] 3ms, all delay time 527ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=5}, DataSize=1
+
+2022-05-12 20:20:30,181 INFO [PUSH-SUCC] 13ms, all delay time 537ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=5}, DataSize=1
+
+2022-05-12 21:15:33,403 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}
+
+2022-05-12 21:15:33,403 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=6}
+
+2022-05-12 21:15:33,403 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=6}
+
+2022-05-12 21:15:33,403 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=6}
+
+2022-05-12 21:15:33,403 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14905893641700
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14905893641700
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14905893641700
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14905893664200
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14905893995200
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14905893996500
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,63420,14905893641700
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,14905894060900
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14905894122900
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,63420,14905893641700
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14905894692200
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14905894686900
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,64777,14905893641700
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,14905895217600
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,63420,14905893664200
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14905895675100
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14905895707800
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,64777,14905893995200
+
+2022-05-12 21:15:33,921 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,64777,14905893996500
+
+2022-05-12 21:15:33,921 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14905896294300
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,58390,14905894060900
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,64777,14905894122900
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,64777,14905894692200
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,57936,14905894686900
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,58390,14905895217600
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,61192,14905895675100
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,57936,14905895707800
+
+2022-05-12 21:15:33,921 INFO send udp packet: 192.168.31.142,61192,14905896294300
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 0ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=7}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 192.168.31.142,63420,14905893641700, ack json: {"type": "push-ack", "lastRefTime":"14905893641700", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,921 INFO [PUSH-SUCC] 0ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,936 INFO [PUSH-SUCC] 15ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,936 INFO [PUSH-SUCC] 15ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,936 INFO [PUSH-SUCC] 15ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,936 INFO [PUSH-SUCC] 15ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:33,936 INFO [PUSH-SUCC] 15ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=6}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:15:34,477 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,477 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14906449721400
+
+2022-05-12 21:15:34,477 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,477 INFO send udp packet: 192.168.31.142,63420,14906449721400
+
+2022-05-12 21:15:34,478 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14906449967400
+
+2022-05-12 21:15:34,479 INFO send udp packet: 192.168.31.142,64777,14906449967400
+
+2022-05-12 21:15:34,484 INFO [PUSH-SUCC] 7ms, all delay time 563ms, SLA 563ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,484 INFO [PUSH-SUCC] 7ms, all delay time 563ms, SLA 563ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,700 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,700 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14906672226700
+
+2022-05-12 21:15:34,700 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,700 INFO send udp packet: 192.168.31.142,63420,14906672226700
+
+2022-05-12 21:15:34,701 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14906672549600
+
+2022-05-12 21:15:34,701 INFO send udp packet: 192.168.31.142,64777,14906672549600
+
+2022-05-12 21:15:34,701 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,701 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14906674050800
+
+2022-05-12 21:15:34,701 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:15:34,701 INFO send udp packet: 192.168.31.142,57936,14906674050800
+
+2022-05-12 21:15:34,701 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14906674337600
+
+2022-05-12 21:15:34,701 INFO send udp packet: 192.168.31.142,61192,14906674337600
+
+2022-05-12 21:15:34,705 INFO [PUSH-SUCC] 5ms, all delay time 595ms, SLA 595ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,705 INFO [PUSH-SUCC] 4ms, all delay time 595ms, SLA 595ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,706 INFO [PUSH-SUCC] 6ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,709 INFO [PUSH-SUCC] 8ms, all delay time 599ms, SLA 599ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,804 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:34,804 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14906775969900
+
+2022-05-12 21:15:34,804 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:34,804 INFO send udp packet: 192.168.31.142,63420,14906775969900
+
+2022-05-12 21:15:34,804 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14906776189300
+
+2022-05-12 21:15:34,805 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:34,805 INFO send udp packet: 192.168.31.142,64777,14906776189300
+
+2022-05-12 21:15:34,805 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,14906776792200
+
+2022-05-12 21:15:34,805 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:34,805 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14906777139600
+
+2022-05-12 21:15:34,805 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:15:34,805 INFO send udp packet: 192.168.31.142,58390,14906776792200
+
+2022-05-12 21:15:34,806 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14906777315500
+
+2022-05-12 21:15:34,806 INFO send udp packet: 192.168.31.142,57936,14906777139600
+
+2022-05-12 21:15:34,807 INFO [PUSH-SUCC] 3ms, all delay time 556ms, SLA 556ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,807 INFO [PUSH-SUCC] 3ms, all delay time 556ms, SLA 556ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:15:34,807 INFO send udp packet: 192.168.31.142,61192,14906777315500
+
+2022-05-12 21:16:33,070 WARN ack takes too long from /192.168.31.142:61192 ack json: {"type": "push-ack", "lastRefTime":"14906777315500", "data":""}
+
+2022-05-12 21:16:33,070 INFO [PUSH-SUCC] 58265ms, all delay time 58819ms, SLA 58819ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:33,085 WARN ack takes too long from /192.168.31.142:57936 ack json: {"type": "push-ack", "lastRefTime":"14906777139600", "data":""}
+
+2022-05-12 21:16:33,085 INFO [PUSH-SUCC] 58280ms, all delay time 58834ms, SLA 58834ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:33,085 WARN ack takes too long from /192.168.31.142:58390 ack json: {"type": "push-ack", "lastRefTime":"14906776792200", "data":""}
+
+2022-05-12 21:16:33,085 INFO [PUSH-SUCC] 58280ms, all delay time 58834ms, SLA 58834ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:35,991 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:35,991 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:35,991 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14967963905200
+
+2022-05-12 21:16:35,991 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14967963905300
+
+2022-05-12 21:16:35,991 INFO send udp packet: 192.168.31.142,57936,14967963905200
+
+2022-05-12 21:16:35,991 INFO send udp packet: 192.168.31.142,57936,14967963905300
+
+2022-05-12 21:16:35,991 INFO [PUSH-SUCC] 0ms, all delay time 593ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=7}, DataSize=1
+
+2022-05-12 21:16:35,991 INFO [PUSH-SUCC] 0ms, all delay time 593ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=7}, DataSize=1
+
+2022-05-12 21:16:36,657 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=8}
+
+2022-05-12 21:16:36,657 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=8}
+
+2022-05-12 21:16:36,657 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=8}
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:37,161 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969133247900
+
+2022-05-12 21:16:37,161 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969133347700
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:37,161 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969133269600
+
+2022-05-12 21:16:37,161 INFO send udp packet: 192.168.31.142,63420,14969133247900
+
+2022-05-12 21:16:37,161 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14969133453900
+
+2022-05-12 21:16:37,161 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14969133438500
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,162 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14969134873000
+
+2022-05-12 21:16:37,161 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,63420,14969133347700
+
+2022-05-12 21:16:37,162 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14969135736000
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,63420,14969133269600
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,57936,14969133453900
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,57936,14969133438500
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,61192,14969134873000
+
+2022-05-12 21:16:37,162 INFO send udp packet: 192.168.31.142,61192,14969135736000
+
+2022-05-12 21:16:37,171 INFO [PUSH-SUCC] 10ms, all delay time 516ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,171 INFO [PUSH-SUCC] 10ms, all delay time 516ms, SLA 514ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,174 INFO [PUSH-SUCC] 13ms, all delay time 519ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,174 INFO [PUSH-SUCC] 13ms, all delay time 519ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,177 INFO [PUSH-SUCC] 16ms, all delay time 522ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,182 INFO [PUSH-SUCC] 21ms, all delay time 527ms, SLA 525ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,183 INFO [PUSH-SUCC] 22ms, all delay time 528ms, SLA 526ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=8}, DataSize=0, target=192.168.31.142
+
+2022-05-12 21:16:37,783 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,783 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969755211200
+
+2022-05-12 21:16:37,783 INFO send udp packet: 192.168.31.142,63420,14969755211200
+
+2022-05-12 21:16:37,784 INFO [PUSH-SUCC] 1ms, all delay time 590ms, SLA 590ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:37,901 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,901 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969873283600
+
+2022-05-12 21:16:37,901 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,901 INFO send udp packet: 192.168.31.142,63420,14969873283600
+
+2022-05-12 21:16:37,901 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14969873489200
+
+2022-05-12 21:16:37,901 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:37,901 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14969873578000
+
+2022-05-12 21:16:37,902 INFO send udp packet: 192.168.31.142,57936,14969873489200
+
+2022-05-12 21:16:37,902 INFO send udp packet: 192.168.31.142,61192,14969873578000
+
+2022-05-12 21:16:37,904 INFO [PUSH-SUCC] 3ms, all delay time 527ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:37,908 INFO [PUSH-SUCC] 7ms, all delay time 531ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:37,908 INFO [PUSH-SUCC] 7ms, all delay time 531ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:38,016 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:38,017 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,14969988931100
+
+2022-05-12 21:16:38,017 INFO send udp packet: 192.168.31.142,63420,14969988931100
+
+2022-05-12 21:16:38,017 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:38,018 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,14969989906900
+
+2022-05-12 21:16:38,018 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:38,018 INFO send udp packet: 192.168.31.142,57936,14969989906900
+
+2022-05-12 21:16:38,018 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,14969990021200
+
+2022-05-12 21:16:38,018 INFO send udp packet: 192.168.31.142,61192,14969990021200
+
+2022-05-12 21:16:38,020 INFO [PUSH-SUCC] 4ms, all delay time 507ms, SLA 507ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:38,024 INFO [PUSH-SUCC] 7ms, all delay time 511ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:38,025 INFO [PUSH-SUCC] 7ms, all delay time 512ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, DataSize=1, target=192.168.31.142
+
+2022-05-12 21:16:40,915 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 21:16:40,915 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 21:16:40,915 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 21:16:40,915 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972887642600
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972887541300
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972887642600
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972887629400
+
+2022-05-12 21:16:40,916 INFO DEFAULT_GROUP@@base-codegen is changed, add it to push queue.
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972887668400
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972887541300
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-codegen changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972888293600
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972887629400
+
+2022-05-12 21:16:40,916 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972887668400
+
+2022-05-12 21:16:40,916 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,14972889336800
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972888293600
+
+2022-05-12 21:16:40,916 INFO send udp packet: 192.168.31.142,64777,14972889336800
+
+2022-05-12 21:16:40,916 INFO [PUSH-SUCC] 1ms, all delay time 502ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 21:16:40,924 INFO [PUSH-SUCC] 9ms, all delay time 510ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=9}, DataSize=1
+
+2022-05-12 21:16:40,924 INFO [PUSH-SUCC] 9ms, all delay time 510ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=9}, DataSize=1
+
+2022-05-12 21:16:40,924 INFO [PUSH-SUCC] 9ms, all delay time 510ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, DataSize=1
+
+2022-05-12 21:16:40,925 INFO [PUSH-SUCC] 9ms, all delay time 511ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-codegen', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 21:16:40,927 INFO [PUSH-SUCC] 11ms, all delay time 513ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 21:16:41,879 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 21:16:41,879 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 21:16:41,880 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,14973851581200
+
+2022-05-12 21:16:41,880 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,14973851561500
+
+2022-05-12 21:16:41,880 INFO send udp packet: 192.168.31.142,58390,14973851581200
+
+2022-05-12 21:16:41,880 INFO send udp packet: 192.168.31.142,58390,14973851561500
+
+2022-05-12 21:16:41,880 INFO [PUSH-SUCC] 1ms, all delay time 563ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=9}, DataSize=1
+
+2022-05-12 21:16:41,891 INFO [PUSH-SUCC] 12ms, all delay time 574ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=1}, DataSize=1
+
+2022-05-12 22:38:42,979 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=10}
+
+2022-05-12 22:38:42,979 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=2}
+
+2022-05-12 22:38:42,979 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}
+
+2022-05-12 22:38:42,979 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}
+
+2022-05-12 22:38:42,979 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=2}
+
+2022-05-12 22:38:43,057 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}
+
+2022-05-12 22:38:43,057 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19895503574700
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19895503559500
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19895503490200
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19895503744200
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19895503753400
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19895503757800
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19895503862700
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,19895503886500
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,63420,19895503574700
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,19895503910700
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19895503937800
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,19895504548800
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-gateway is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-gateway@@DEFAULT changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19895504628800
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,63420,19895503559500
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,63420,19895503490200
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,64777,19895503744200
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19895506635600
+
+2022-05-12 22:38:43,530 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 22:38:43,530 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,19895506821700
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,64777,19895503753400
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,64777,19895503757800
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,57936,19895503862700
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,58390,19895503886500
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,61192,19895503910700
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,57936,19895503937800
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,61192,19895504548800
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,64777,19895504628800
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,64777,19895506635600
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO send udp packet: 192.168.31.142,58390,19895506821700
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 473ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,530 INFO [PUSH-SUCC] 0ms, all delay time 551ms, SLA 551ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=10}, DataSize=0, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 489ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-gateway', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:43,546 INFO [PUSH-SUCC] 16ms, all delay time 567ms, SLA 489ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,622 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,622 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19896594923800
+
+2022-05-12 22:38:44,622 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,622 INFO send udp packet: 192.168.31.142,63420,19896594923800
+
+2022-05-12 22:38:44,622 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19896595106900
+
+2022-05-12 22:38:44,622 INFO send udp packet: 192.168.31.142,64777,19896595106900
+
+2022-05-12 22:38:44,622 INFO [PUSH-SUCC] 0ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,622 INFO [PUSH-SUCC] 0ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,732 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,732 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19896704955600
+
+2022-05-12 22:38:44,732 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,732 INFO send udp packet: 192.168.31.142,63420,19896704955600
+
+2022-05-12 22:38:44,732 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19896705150700
+
+2022-05-12 22:38:44,732 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,732 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19896705864700
+
+2022-05-12 22:38:44,732 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:44,732 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,19896705993300
+
+2022-05-12 22:38:44,732 INFO send udp packet: 192.168.31.142,64777,19896705150700
+
+2022-05-12 22:38:44,732 INFO send udp packet: 192.168.31.142,57936,19896705864700
+
+2022-05-12 22:38:44,732 INFO send udp packet: 192.168.31.142,61192,19896705993300
+
+2022-05-12 22:38:44,732 INFO [PUSH-SUCC] 0ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,732 INFO [PUSH-SUCC] 0ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,732 INFO [PUSH-SUCC] 0ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,732 INFO [PUSH-SUCC] 0ms, all delay time 549ms, SLA 549ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,843 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:44,843 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,19896815782100
+
+2022-05-12 22:38:44,843 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:44,843 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,19896816033400
+
+2022-05-12 22:38:44,843 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:44,843 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,19896816211400
+
+2022-05-12 22:38:44,843 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:44,843 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19896816262400
+
+2022-05-12 22:38:44,843 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:44,843 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,19896816304800
+
+2022-05-12 22:38:44,843 INFO send udp packet: 192.168.31.142,63420,19896815782100
+
+2022-05-12 22:38:44,843 INFO send udp packet: 192.168.31.142,64777,19896816033400
+
+2022-05-12 22:38:44,843 INFO send udp packet: 192.168.31.142,58390,19896816211400
+
+2022-05-12 22:38:44,843 INFO send udp packet: 192.168.31.142,57936,19896816262400
+
+2022-05-12 22:38:44,843 INFO send udp packet: 192.168.31.142,61192,19896816304800
+
+2022-05-12 22:38:44,843 INFO [PUSH-SUCC] 0ms, all delay time 503ms, SLA 503ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,843 INFO [PUSH-SUCC] 0ms, all delay time 503ms, SLA 503ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,843 INFO [PUSH-SUCC] 0ms, all delay time 503ms, SLA 503ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,843 INFO [PUSH-SUCC] 0ms, all delay time 503ms, SLA 503ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:44,843 INFO [PUSH-SUCC] 0ms, all delay time 503ms, SLA 503ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1, target=192.168.31.142
+
+2022-05-12 22:38:46,604 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 22:38:46,604 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 22:38:46,604 INFO serviceName: DEFAULT_GROUP@@base-auth@@DEFAULT changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19898576856400
+
+2022-05-12 22:38:46,604 INFO send udp packet: 192.168.31.142,57936,19898576856400
+
+2022-05-12 22:38:46,604 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,19898576800900
+
+2022-05-12 22:38:46,604 INFO send udp packet: 192.168.31.142,57936,19898576800900
+
+2022-05-12 22:38:46,604 INFO [PUSH-SUCC] 0ms, all delay time 503ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1
+
+2022-05-12 22:38:46,604 INFO [PUSH-SUCC] 0ms, all delay time 503ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=11}, DataSize=1
+
+2022-05-12 23:33:18,699 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 23:33:18,702 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,23170674244600
+
+2022-05-12 23:33:18,702 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 23:33:18,702 INFO serviceName: DEFAULT_GROUP@@base-mall-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58390, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58390,23170676577500
+
+2022-05-12 23:33:18,702 INFO send udp packet: 192.168.31.142,64777,23170674244600
+
+2022-05-12 23:33:18,702 INFO send udp packet: 192.168.31.142,58390,23170676577500
+
+2022-05-12 23:33:18,720 INFO [PUSH-SUCC] 21ms, all delay time 549ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=3}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:33:28,720 INFO retry to push data, key: 192.168.31.142,58390,23170676577500
+
+2022-05-12 23:33:33,760 INFO DEFAULT_GROUP@@base-mall-admin is changed, add it to push queue.
+
+2022-05-12 23:33:33,760 INFO serviceName: DEFAULT_GROUP@@base-mall-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,23185732452400
+
+2022-05-12 23:33:33,760 INFO send udp packet: 192.168.31.142,64777,23185732452400
+
+2022-05-12 23:33:33,760 INFO [PUSH-SUCC] 0ms, all delay time 560ms, SLA 560ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}, DataSize=0, target=192.168.31.142
+
+2022-05-12 23:33:38,721 WARN max re-push times reached, retry times 2, key: 192.168.31.142,58390,23170676577500
+
+2022-05-12 23:33:38,722 ERROR [PUSH-FAIL] 20020ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-mall-admin', ephemeral=true, revision=4}, reason=null, target=192.168.31.142
+
+2022-05-12 23:44:14,679 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:44:14,680 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,23826651744200
+
+2022-05-12 23:44:14,680 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:44:14,680 INFO send udp packet: 192.168.31.142,63420,23826651744200
+
+2022-05-12 23:44:14,680 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,23826652073000
+
+2022-05-12 23:44:14,680 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:44:14,680 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,23826652949900
+
+2022-05-12 23:44:14,681 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:44:14,681 INFO send udp packet: 192.168.31.142,64777,23826652073000
+
+2022-05-12 23:44:14,681 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:61192, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,61192,23826653104700
+
+2022-05-12 23:44:14,681 INFO send udp packet: 192.168.31.142,57936,23826652949900
+
+2022-05-12 23:44:14,682 INFO send udp packet: 192.168.31.142,61192,23826653104700
+
+2022-05-12 23:44:14,690 INFO [PUSH-SUCC] 10ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=12}, DataSize=0, target=192.168.31.142
+
+2022-05-12 23:44:14,690 INFO [PUSH-SUCC] 10ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=12}, DataSize=0, target=192.168.31.142
+
+2022-05-12 23:44:14,690 INFO [PUSH-SUCC] 11ms, all delay time 567ms, SLA 567ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=12}, DataSize=0, target=192.168.31.142
+
+2022-05-12 23:44:24,708 INFO retry to push data, key: 192.168.31.142,61192,23826653104700
+
+2022-05-12 23:44:34,712 WARN max re-push times reached, retry times 2, key: 192.168.31.142,61192,23826653104700
+
+2022-05-12 23:44:34,712 ERROR [PUSH-FAIL] 20031ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=12}, reason=null, target=192.168.31.142
+
+2022-05-12 23:45:04,896 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 23:45:04,896 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:63420, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,63420,23876868069200
+
+2022-05-12 23:45:04,896 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 23:45:04,896 INFO send udp packet: 192.168.31.142,63420,23876868069200
+
+2022-05-12 23:45:04,896 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,23876868229000
+
+2022-05-12 23:45:04,896 INFO send udp packet: 192.168.31.142,64777,23876868229000
+
+2022-05-12 23:45:04,901 INFO [PUSH-SUCC] 5ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=12}, DataSize=0, target=192.168.31.142
+
+2022-05-12 23:45:14,909 INFO retry to push data, key: 192.168.31.142,63420,23876868069200
+
+2022-05-12 23:45:24,918 WARN max re-push times reached, retry times 2, key: 192.168.31.142,63420,23876868069200
+
+2022-05-12 23:45:24,918 ERROR [PUSH-FAIL] 20022ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=12}, reason=null, target=192.168.31.142
+
+2022-05-12 23:45:56,006 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:45:56,007 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:57000, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57000,23927978542500
+
+2022-05-12 23:45:56,007 INFO send udp packet: 192.168.31.142,57000,23927978542500
+
+2022-05-12 23:45:56,014 INFO [PUSH-SUCC] 8ms, all delay time 537ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 23:45:57,096 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:45:57,099 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,23929070217100
+
+2022-05-12 23:45:57,099 INFO send udp packet: 192.168.31.142,64777,23929070217100
+
+2022-05-12 23:45:57,099 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:45:57,100 INFO serviceName: DEFAULT_GROUP@@base-upms-admin changed, schedule push for: 192.168.31.142:57936, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57936,23929072524500
+
+2022-05-12 23:45:57,103 INFO send udp packet: 192.168.31.142,57936,23929072524500
+
+2022-05-12 23:45:57,106 INFO [PUSH-SUCC] 11ms, all delay time 543ms, SLA 543ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:45:57,107 INFO DEFAULT_GROUP@@base-upms-admin is changed, add it to push queue.
+
+2022-05-12 23:45:57,112 INFO serviceName: DEFAULT_GROUP@@base-upms-admin@@DEFAULT changed, schedule push for: 192.168.31.142:57000, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57000,23929079349600
+
+2022-05-12 23:45:57,112 INFO send udp packet: 192.168.31.142,57000,23929079349600
+
+2022-05-12 23:45:57,118 INFO [PUSH-SUCC] 18ms, all delay time 555ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:45:57,121 INFO [PUSH-SUCC] 22ms, all delay time 558ms, SLA 558ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-upms-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:47:23,883 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 23:47:23,883 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58353, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58353,24015855330700
+
+2022-05-12 23:47:23,883 INFO send udp packet: 192.168.31.142,58353,24015855330700
+
+2022-05-12 23:47:23,888 INFO [PUSH-SUCC] 5ms, all delay time 509ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=0}, DataSize=0
+
+2022-05-12 23:47:24,538 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 23:47:24,538 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin changed, schedule push for: 192.168.31.142:64777, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,64777,24016509993800
+
+2022-05-12 23:47:24,538 INFO DEFAULT_GROUP@@base-weixin-admin is changed, add it to push queue.
+
+2022-05-12 23:47:24,538 INFO send udp packet: 192.168.31.142,64777,24016509993800
+
+2022-05-12 23:47:24,538 INFO serviceName: DEFAULT_GROUP@@base-weixin-admin@@DEFAULT changed, schedule push for: 192.168.31.142:58353, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,58353,24016510144000
+
+2022-05-12 23:47:24,538 INFO send udp packet: 192.168.31.142,58353,24016510144000
+
+2022-05-12 23:47:24,540 INFO [PUSH-SUCC] 2ms, all delay time 554ms, SLA 554ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:47:24,542 INFO [PUSH-SUCC] 4ms, all delay time 556ms, SLA 556ms, Service{namespace='public', group='DEFAULT_GROUP', name='base-weixin-admin', ephemeral=true, revision=1}, DataSize=1, target=192.168.31.142
+
+2022-05-12 23:49:44,972 INFO DEFAULT_GROUP@@base-auth is changed, add it to push queue.
+
+2022-05-12 23:49:44,972 INFO serviceName: DEFAULT_GROUP@@base-auth changed, schedule push for: 192.168.31.142:57000, agent: Nacos-Java-Client:v1.4.1, key: 192.168.31.142,57000,24156944224500
+
+2022-05-12 23:49:44,972 INFO send udp packet: 192.168.31.142,57000,24156944224500
+
+2022-05-12 23:49:44,976 INFO [PUSH-SUCC] 4ms, all delay time 505ms for subscriber 192.168.31.142, Service{namespace='public', group='DEFAULT_GROUP', name='base-auth', ephemeral=true, revision=11}, DataSize=1
+

@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.hongnx.cloud.common.sms.config.SmsConfigProperties,\
+  com.hongnx.cloud.common.sms.config.SmsTemplateProperties,\
+  com.hongnx.cloud.common.sms.util.SmsUtils

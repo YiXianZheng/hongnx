@@ -1,0 +1,42 @@
+## spring security 配置
+security:
+  oauth2:
+    client:
+      client-id: admin
+      client-secret: admin
+      scope: server
+      # 无需token访问的url
+      release-urls:
+        - /actuator/**
+        - /v2/api-docs
+        - /userinfo/query
+# 数据源
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql://base-mysql:3307/base_gitea?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&allowMultiQueries=true&allowPublicKeyRetrieval=true
+  resources:
+    static-locations: classpath:/static/,classpath:/views/
+# Logger Config sql日志
+logging:
+  level:
+    com.joolun.cloud.gitea.admin.mapper: debug
+#邮箱配置
+email:
+  mailSmtpHost: smtpdm.aliyun.com
+  mailSmtpUsername: xxxxxxxxxxxxx
+  mailSmtpPassword: xxxxxxxxxxxxxxx
+  siteName: JooLun 
+xxl:
+  job:
+    # 开关
+    enabled: false
+    admin:
+      # xxl_job后台访问地址
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    executor:
+      appname: base-gitea-admin

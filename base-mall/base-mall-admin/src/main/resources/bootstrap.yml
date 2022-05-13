@@ -1,0 +1,19 @@
+server:
+  port: 6003
+
+spring:
+  application:
+    name: @artifactId@
+  #配置中心
+  cloud:
+    nacos:
+      discovery:
+        server-addr: base-nacos:8848
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml
+        shared-configs[0]:
+          data-id: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+          refresh: true
+  profiles:
+    active: dev
